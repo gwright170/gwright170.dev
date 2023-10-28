@@ -1,11 +1,14 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { Header } from '@/components/Header/Header';
+import { HeroMe } from '@/components/HeroMe/HeroMe';
+import { ArticlesCardsGrid } from '@/components/ArticlesCardsGrid/ArticlesCardsGrid';
 
 export default function HomePage() {
   return (
     <>
-      <Welcome />
-      <ColorSchemeToggle />
+      <Header />
+      <HeroMe />
+      {/* <Images /> */}
+      <ArticlesCardsGrid />
     </>
   );
 }
