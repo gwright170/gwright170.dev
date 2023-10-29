@@ -1,6 +1,13 @@
-"use client";
+'use client';
 
-import { SimpleGrid, Card, Image, Text, Container, AspectRatio } from '@mantine/core';
+import {
+  AspectRatio,
+  Card,
+  Container,
+  Image,
+  SimpleGrid,
+  Text,
+} from '@mantine/core';
 import classes from './ArticlesCardsGrid.module.css';
 
 // TODO: css linting
@@ -32,9 +39,16 @@ const mockdata = [
   },
 ];
 
-export function ArticlesCardsGrid() {
-  const cards = mockdata.map((article) => (
-    <Card key={article.title} p="md" radius="md" component="a" href="#" className={classes.card}>
+const ArticlesCardsGrid = () => {
+  const cards = mockdata.map(article => (
+    <Card
+      key={article.title}
+      p="md"
+      radius="md"
+      component="a"
+      href="#"
+      className={classes.card}
+    >
       <AspectRatio ratio={1920 / 1080}>
         <Image src={article.image} />
       </AspectRatio>
@@ -52,4 +66,6 @@ export function ArticlesCardsGrid() {
       <SimpleGrid cols={{ base: 1, sm: 2 }}>{cards}</SimpleGrid>
     </Container>
   );
-}
+};
+
+export { ArticlesCardsGrid };

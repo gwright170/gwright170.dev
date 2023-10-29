@@ -1,11 +1,11 @@
 import '@testing-library/jest-dom/extend-expect';
 
 const { getComputedStyle } = window;
-window.getComputedStyle = (elt) => getComputedStyle(elt);
+window.getComputedStyle = elt => getComputedStyle(elt);
 
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
-  value: jest.fn().mockImplementation((query) => ({
+  value: jest.fn().mockImplementation(query => ({
     matches: false,
     media: query,
     onchange: null,

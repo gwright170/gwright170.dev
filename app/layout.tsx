@@ -1,6 +1,6 @@
+import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
-import React from 'react';
-import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+import { ReactNode } from 'react';
 import { theme } from '../theme';
 
 export const metadata = {
@@ -8,7 +8,7 @@ export const metadata = {
   description: 'George Wright is a Software Engineer based in London, UK.',
 };
 
-export default function RootLayout({ children }: { children: any }) {
+const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
       <head>
@@ -24,4 +24,6 @@ export default function RootLayout({ children }: { children: any }) {
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

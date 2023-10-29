@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { useState } from 'react';
-import { Container, Group, Burger } from '@mantine/core';
+import { Burger, Container, Group } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import classes from './Header.module.css';
+import { useState } from 'react';
 import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
+import classes from './Header.module.css';
 
 // TODO: add logo
 
@@ -15,17 +15,17 @@ const links = [
   { link: '/community', label: 'Community' }, // links to socials / conferences
 ];
 
-export function Header() {
+const Header = () => {
   const [opened, { toggle }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
 
-  const items = links.map((link) => (
+  const items = links.map(link => (
     <a
       key={link.label}
       href={link.link}
       className={classes.link}
       data-active={active === link.link || undefined}
-      onClick={(event) => {
+      onClick={event => {
         event.preventDefault();
         setActive(link.link);
       }}
@@ -45,4 +45,6 @@ export function Header() {
       </Container>
     </header>
   );
-}
+};
+
+export { Header };
