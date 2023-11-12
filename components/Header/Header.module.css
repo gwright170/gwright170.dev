@@ -1,37 +1,30 @@
 .header {
-  height: rem(96px);
-  margin-bottom: rem(120px);
+  height: var(--g170-menu-height);
   background-color: var(--mantine-color-body);
   border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
   
 .inner {
-  height: rem(96px);
+  height: var(--g170-menu-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-  
-.logo {
-  width: rem(160px);
-  height: rem(24px);
 }
 
 .link {
   display: block;
   line-height: 1;
   padding: rem(16px) rem(16px);
+  border-radius: var(--mantine-radius-sm);
   text-decoration: none;
   color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
-  font-size: var(--mantine-font-size-sm);
+  font-size: var(--mantine-font-size-md);
   font-weight: 500;
 
   @mixin hover {
-    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-yellow-filled));
-  }
-
-  [data-mantine-color-scheme] &[data-active] {
-    background-color: var(--mantine-color-yellow-filled);
-    color: var(--mantine-color-white);
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
   }
 }

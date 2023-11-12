@@ -1,7 +1,7 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import { ReactNode } from 'react';
-import { theme } from '../theme';
+import { resolver, theme } from '../theme';
 
 export const metadata = {
   title: 'George Wright | Software Engineer',
@@ -20,7 +20,9 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MantineProvider theme={theme} cssVariablesResolver={resolver}>
+          {children}
+        </MantineProvider>
       </body>
     </html>
   );

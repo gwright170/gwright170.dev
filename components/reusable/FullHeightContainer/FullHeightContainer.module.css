@@ -1,0 +1,5 @@
+.full-height-container {
+  min-height: calc(100vh - var(--g170-menu-height));
+  display: flex;
+  align-items: center;
+}
