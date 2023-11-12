@@ -1,7 +1,10 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import { ReactNode } from 'react';
+import { FullHeightContainer } from '../components/FullHeightContainer/FullHeightContainer';
+import { Header } from '../components/Header/Header';
 import { resolver, theme } from '../theme';
+import './globals.css';
 
 export const metadata = {
   title: 'George Wright | Software Engineer',
@@ -21,7 +24,8 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
       </head>
       <body>
         <MantineProvider theme={theme} cssVariablesResolver={resolver}>
-          {children}
+          <Header />
+          <FullHeightContainer my="md">{children}</FullHeightContainer>
         </MantineProvider>
       </body>
     </html>
