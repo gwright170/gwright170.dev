@@ -3,10 +3,8 @@
 import { Avatar, Text, ThemeIcon, Timeline, Title } from '@mantine/core';
 import { IconSun, IconVideo } from '@tabler/icons-react';
 
-import { FullHeightContainer } from '../reusable/FullHeightContainer/FullHeightContainer';
-
-const Career = () => (
-  <FullHeightContainer>
+const Page = () => (
+  <>
     <Title>My career</Title>
 
     <Timeline mt={30} bulletSize={24}>
@@ -52,7 +50,7 @@ const Career = () => (
         </Text>
       </Timeline.Item>
     </Timeline>
-  </FullHeightContainer>
+  </>
 );
 
-export { Career };
+export default Page;

@@ -1,31 +1,32 @@
-import { Container } from '@mantine/core';
-import { Career } from '../components/Career/Career';
-import { Expertise } from '../components/Expertise/Expertise';
-import { Header } from '../components/Header/Header';
-import { HeroMe } from '../components/HeroMe/HeroMe';
+'use client';
 
-const HomePage = () => {
-  return (
-    <Container
-      fluid
-      styles={{
-        root: { padding: 0 },
-      }}
-    >
-      <Header />
-      <Container
-        my="md"
-        styles={{
-          // nasty hack to override injected mt + mb from Container that we do not want
-          root: { margin: '0 auto !important' },
-        }}
-      >
-        <HeroMe />
-        <Expertise />
-        <Career />
-      </Container>
-    </Container>
-  );
-};
+import { Avatar, List, Title } from '@mantine/core';
+import { SocialButtons } from '../components/SocialButtons/SocialButtons';
+import classes from './home.module.css';
 
-export default HomePage;
+const Page = () => (
+  <div className={classes.content}>
+    <Avatar src="display-picture.jpg" size="xl" alt="it's me" />
+
+    <Title className={classes.title}>
+      <span className={classes.highlight}>Software Engineer</span>, explorer,
+      amateur runner
+    </Title>
+
+    <List mt={30} spacing="sm" size="md">
+      <List.Item icon="👋">Hi, I&apos;m George!</List.Item>
+      <List.Item icon="💻">A full-stack Software Engineer</List.Item>
+      <List.Item icon="📍">At Skyscanner, London</List.Item>
+      <List.Item icon="🛠️">Specialising in TypeScript and React</List.Item>
+    </List>
+    <List mt={30} spacing="sm" size="md">
+      <List.Item icon="🚀">
+        Let&apos;s build something awesome together!
+      </List.Item>
+    </List>
+
+    <SocialButtons />
+  </div>
+);
+
+export default Page;
