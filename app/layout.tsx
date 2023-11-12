@@ -2,6 +2,7 @@ import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import { ReactNode } from 'react';
 import { resolver, theme } from '../theme';
+import './globals.css';
 
 export const metadata = {
   title: 'George Wright | Software Engineer',

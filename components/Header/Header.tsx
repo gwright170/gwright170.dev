@@ -3,8 +3,8 @@
 import { Burger, Container, Group } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { useState } from 'react';
-import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
 import { Logo } from '../reusable/Logo/Logo';
+import { ColorSchemeToggle } from './ColorSchemeToggle/ColorSchemeToggle';
 import classes from './Header.module.css';
 
 const links = [

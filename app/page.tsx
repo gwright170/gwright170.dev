@@ -1,5 +1,4 @@
 import { Container } from '@mantine/core';
-import { ArticlesCardsGrid } from '../components/ArticlesCardsGrid/ArticlesCardsGrid';
 import { Career } from '../components/Career/Career';
 import { Expertise } from '../components/Expertise/Expertise';
 import { Header } from '../components/Header/Header';
@@ -24,7 +23,6 @@ const HomePage = () => {
         <HeroMe />
         <Expertise />
         <Career />
-        <ArticlesCardsGrid />
       </Container>
     </Container>
   );
