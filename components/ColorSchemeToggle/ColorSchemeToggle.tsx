@@ -17,7 +17,7 @@ const ColorSchemeToggle = () => {
   });
 
   return (
-    <Group justify="center">
+    <Group justify="right" className={classes.container}>
       <ActionIcon
         onClick={() =>
           setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')

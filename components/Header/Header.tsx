@@ -4,15 +4,14 @@ import { Burger, Container, Group } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { useState } from 'react';
 import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
+import { Logo } from '../reusable/Logo/Logo';
 import classes from './Header.module.css';
 
-// TODO: add logo
-
 const links = [
-  { link: '/blog', label: 'Blog' }, // blog posts
-  { link: '/career', label: 'Career' }, // interactive resume
-  { link: '/toolset', label: 'Toolset' }, // the languages, frameworks, etc. that I use
-  { link: '/community', label: 'Community' }, // links to socials / conferences
+  { link: '/expertise', label: 'expertise' },
+  { link: '/experience', label: 'experience' },
+  { link: '/projects', label: 'projects' },
+  { link: '/contact', label: 'contact' },
 ];
 
 const Header = () => {
@@ -37,6 +36,7 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
+        <Logo />
         <Group gap={5} visibleFrom="xs">
           {items}
         </Group>

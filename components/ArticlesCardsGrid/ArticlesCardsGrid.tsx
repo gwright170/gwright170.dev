@@ -1,13 +1,6 @@
 'use client';
 
-import {
-  AspectRatio,
-  Card,
-  Container,
-  Image,
-  SimpleGrid,
-  Text,
-} from '@mantine/core';
+import { AspectRatio, Card, Image, SimpleGrid, Text } from '@mantine/core';
 import classes from './ArticlesCardsGrid.module.css';
 
 // TODO: css linting
@@ -61,11 +54,7 @@ const ArticlesCardsGrid = () => {
     </Card>
   ));
 
-  return (
-    <Container py="xl">
-      <SimpleGrid cols={{ base: 1, sm: 2 }}>{cards}</SimpleGrid>
-    </Container>
-  );
+  return <SimpleGrid cols={{ base: 1, sm: 2 }}>{cards}</SimpleGrid>;
 };
 
 export { ArticlesCardsGrid };

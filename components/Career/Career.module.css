@@ -35,7 +35,7 @@
 
 .highlight {
   position: relative;
-  background-color: var(--mantine-color-yellow-7);
+  background-color: var(--mantine-color-yellow);
   border-radius: var(--mantine-radius-md);
   padding: rem(4px) rem(8px);
 }
