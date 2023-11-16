@@ -1,8 +1,8 @@
 'use client';
 
 import {
-  ActionIcon,
   Group,
+  UnstyledButton,
   useComputedColorScheme,
   useMantineColorScheme,
 } from '@mantine/core';
@@ -17,8 +17,8 @@ const ColorSchemeToggle = () => {
   });
 
   return (
-    <Group justify="right" className={classes.container}>
-      <ActionIcon
+    <Group className={classes.container}>
+      <UnstyledButton
         onClick={() =>
           setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')
         }
@@ -28,7 +28,7 @@ const ColorSchemeToggle = () => {
       >
         <IconSun className={cx(classes.icon, classes.light)} stroke={1.5} />
         <IconMoon className={cx(classes.icon, classes.dark)} stroke={1.5} />
-      </ActionIcon>
+      </UnstyledButton>
     </Group>
   );
 };

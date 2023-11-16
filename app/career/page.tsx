@@ -2,9 +2,11 @@
 
 import { Avatar, Text, ThemeIcon, Timeline, Title } from '@mantine/core';
 import { IconSun, IconVideo } from '@tabler/icons-react';
+import { FullHeightContainer } from '../../components/FullHeightContainer/FullHeightContainer';
+import classes from './career.module.css';
 
 const Page = () => (
-  <>
+  <FullHeightContainer my="md" background={classes['background']}>
     <Title>My career</Title>
 
     <Timeline mt={30} bulletSize={24}>
@@ -50,7 +52,7 @@ const Page = () => (
         </Text>
       </Timeline.Item>
     </Timeline>
-  </>
+  </FullHeightContainer>
 );
 
 export default Page;
