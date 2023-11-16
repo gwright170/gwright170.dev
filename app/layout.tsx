@@ -1,7 +1,7 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import { ReactNode } from 'react';
-import { FullHeightContainer } from '../components/FullHeightContainer/FullHeightContainer';
+import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
 import { Header } from '../components/Header/Header';
 import { resolver, theme } from '../theme';
 import './globals.css';
@@ -25,7 +25,8 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
       <body>
         <MantineProvider theme={theme} cssVariablesResolver={resolver}>
           <Header />
-          <FullHeightContainer my="md">{children}</FullHeightContainer>
+          {children}
+          <ColorSchemeToggle />
         </MantineProvider>
       </body>
     </html>

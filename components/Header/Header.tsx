@@ -4,11 +4,11 @@ import { Burger, Container, Group } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
 import { Logo } from '../Logo/Logo';
 import classes from './Header.module.css';
 
 const links = [
+  { link: '/', label: 'home' },
   { link: '/expertise', label: 'expertise' },
   { link: '/career', label: 'career' },
   { link: '/projects', label: 'projects' },
@@ -41,7 +41,6 @@ const Header = () => {
           {items}
         </Group>
         <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />
-        <ColorSchemeToggle />
       </Container>
     </header>
   );

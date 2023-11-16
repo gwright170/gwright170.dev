@@ -30,4 +30,8 @@
   border-radius: var(--mantine-radius-md);
   padding: rem(4px) rem(8px);
 }
-  
+
+.background {
+  background: radial-gradient(circle at bottom right, var(--mantine-color-yellow-7), transparent 30%);
+  background-size: cover;
+}

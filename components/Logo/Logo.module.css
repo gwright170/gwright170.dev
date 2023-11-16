@@ -3,8 +3,14 @@
 }
 
 .dark {
+  opacity: 0.7;
+
   @mixin light {
     display: none;
+  }
+
+  @mixin hover {
+    opacity: 1;
   }
 
   @mixin dark {
@@ -13,8 +19,14 @@
 }
   
 .light {
+  opacity: 0.7;
+
   @mixin dark {
     display: none;
+  }
+
+  @mixin hover {
+    opacity: 1;
   }
 
   @mixin light {

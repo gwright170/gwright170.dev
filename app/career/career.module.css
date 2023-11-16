@@ -1,0 +1,4 @@
+.background {
+  background: radial-gradient(circle at bottom right, var(--mantine-color-blue-7), transparent 30%);
+  background-size: cover;
+}
