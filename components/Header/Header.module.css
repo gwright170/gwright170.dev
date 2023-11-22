@@ -18,7 +18,6 @@
   display: block;
   line-height: 1;
   padding: rem(16px) rem(16px);
-  border-radius: var(--mantine-radius-sm);
   text-decoration: none;
   color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
   font-size: var(--mantine-font-size-md);

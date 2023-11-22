@@ -1,18 +1,18 @@
-import { Container, MantineSpacing, StyleProp } from '@mantine/core';
+import { Container, MantineSize } from '@mantine/core';
 import { ReactNode } from 'react';
 import classes from './FullHeightContainer.module.css';
 
 const FullHeightContainer = ({
   background,
-  my,
+  size,
   children,
 }: {
   background: string;
-  my?: StyleProp<MantineSpacing>;
+  size: MantineSize;
   children: ReactNode;
 }) => (
   <div className={background}>
-    <Container my={my} className={classes['full-height-container']}>
+    <Container size={size} my="md" className={classes['full-height-container']}>
       <div className={classes.content}>{children}</div>
     </Container>
   </div>

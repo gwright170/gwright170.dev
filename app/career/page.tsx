@@ -1,14 +1,12 @@
 'use client';
 
-import { Avatar, Text, ThemeIcon, Timeline, Title } from '@mantine/core';
+import { Avatar, Text, ThemeIcon, Timeline } from '@mantine/core';
 import { IconSun, IconVideo } from '@tabler/icons-react';
 import { FullHeightContainer } from '../../components/FullHeightContainer/FullHeightContainer';
 import classes from './career.module.css';
 
 const Page = () => (
-  <FullHeightContainer my="md" background={classes['background']}>
-    <Title>My career</Title>
-
+  <FullHeightContainer size="md" background={classes['background']}>
     <Timeline mt={30} bulletSize={24}>
       <Timeline.Item title="Default bullet">
         <Text c="dimmed" size="sm">

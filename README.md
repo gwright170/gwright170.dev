@@ -7,7 +7,8 @@
 - [ ] CSS modules eslint plugin
 - [ ] Rework README.md
 - [ ] Update theme colours
-- [ ] Subtle gradient for each page
+- [ ] kebab-case class names
+- [ ] Replace emoji with image versions
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
 If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).

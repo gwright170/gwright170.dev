@@ -1,0 +1,11 @@
+.title img {
+  position: absolute;
+  top: calc(var(--mantine-spacing-lg) * 1.9);
+  left: var(--mantine-spacing-lg);
+}
+
+.title h3 {
+  padding-top: calc(var(--mantine-spacing-lg));
+  padding-bottom: calc(var(--mantine-spacing-xl));
+  padding-left: rem(50px);
+}

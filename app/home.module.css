@@ -12,6 +12,7 @@
   font-size: rem(44px);
   line-height: 1.2;
   font-weight: 900;
+  padding-top: 0px;
 
   @media (max-width: $mantine-breakpoint-xs) {
     font-size: rem(28px);
@@ -27,7 +28,6 @@
 .highlight {
   position: relative;
   background-color: var(--mantine-color-yellow-7);
-  border-radius: var(--mantine-radius-md);
   padding: rem(4px) rem(8px);
 }
 
