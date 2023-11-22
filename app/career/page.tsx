@@ -6,7 +6,7 @@ import { FullHeightContainer } from '../../components/FullHeightContainer/FullHe
 import classes from './career.module.css';
 
 const Page = () => (
-  <FullHeightContainer size="md" background={classes['background']}>
+  <FullHeightContainer size="sm" background={classes['background']}>
     <Timeline mt={30} bulletSize={24}>
       <Timeline.Item title="Default bullet">
         <Text c="dimmed" size="sm">
