@@ -9,6 +9,7 @@
 - [ ] Update theme colours
 - [ ] kebab-case class names
 - [ ] Replace emoji with image versions
+- [ ] mobile optimisation
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
 If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).
