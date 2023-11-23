@@ -5,30 +5,31 @@ const cards: ExpertiseCardParams[] = [
   {
     title: 'Front-end',
     content: (
-      <Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a
-        accumsan sem. Maecenas ac faucibus lorem, et iaculis ex. Praesent ut
-        ligula nec nulla commodo pretium.
-      </Text>
+      <>
+        <Text>
+          I build interactive, efficient, and scalable web applications.
+        </Text>
+        <List mt={8} spacing="sm" size="md">
+          <List.Item icon="⚙️">
+            <b>Core technologies</b>
+            <br /> TypeScript, Node.js, Babel, Webpack, ESLint, Jest
+          </List.Item>
+          <List.Item icon="📚">
+            <b>Libraries</b>
+            <br /> React, Next.js, RxJS, tailwindcss, Express.js, RTL
+          </List.Item>
+        </List>
+      </>
     ),
     image: { path: '/icons/react.svg', alt: 'React logo' },
-  },
-  {
-    title: 'Full-stack',
-    content: (
-      <Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a
-        accumsan sem. Maecenas ac faucibus lorem, et iaculis ex. Praesent ut
-        ligula nec nulla commodo pretium.
-      </Text>
-    ),
-    image: { path: '/icons/postgresql.svg', alt: 'Postgresql logo' },
   },
   {
     title: 'Video playback',
     content: (
       <>
-        <Text>Lead development of Mercury, DAZN’s custom MSE/EME player.</Text>
+        <Text>
+          I lead the development of Mercury, DAZN’s custom MSE/EME player.
+        </Text>
         <List mt={8} spacing="sm" size="md">
           <List.Item icon="🔧">
             improved the streaming experience under challenging network
@@ -44,6 +45,28 @@ const cards: ExpertiseCardParams[] = [
       </>
     ),
     image: { path: '/emoji/television.png', alt: 'Television emoji' },
+  },
+  {
+    title: 'Full-stack',
+    content: (
+      <>
+        <Text>
+          I also dabble in back-end and full-stack development, mostly when it
+          comes to system design.
+        </Text>
+        <List mt={8} spacing="sm" size="md">
+          <List.Item icon="🤟">
+            <b>My other languages</b>
+            <br /> Java, Python (wow, such diversity)
+          </List.Item>
+          <List.Item icon="✨">
+            <b>Buzzwords</b>
+            <br /> I&apos;ll save you the trouble
+          </List.Item>
+        </List>
+      </>
+    ),
+    image: { path: '/icons/postgresql.svg', alt: 'Postgresql logo' },
   },
 ];
 

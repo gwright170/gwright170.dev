@@ -9,3 +9,7 @@
   padding-bottom: calc(var(--mantine-spacing-xl));
   padding-left: rem(50px);
 }
+
+.card {
+  background-color: var(--mantine-color-body);
+}
