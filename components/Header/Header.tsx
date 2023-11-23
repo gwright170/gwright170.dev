@@ -11,8 +11,7 @@ const links = [
   { link: '/', label: 'home' },
   { link: '/expertise', label: 'expertise' },
   { link: '/career', label: 'career' },
-  { link: '/projects', label: 'projects' },
-  { link: '/contact', label: 'contact' },
+  { link: '/blog', label: 'blog' },
 ];
 
 const Header = () => {
