@@ -19,6 +19,9 @@ const Page = () => (
         <List.Item icon="💻">
           A front-end / full-stack Software Engineer
         </List.Item>
+        <List.Item icon="📺">
+          Experienced in adaptive bitrate streaming (MSE / EME)
+        </List.Item>
         <List.Item icon="🛠️">Specialising in Node, TypeScript, React</List.Item>
         <List.Item icon="📍">Working at Skyscanner, London</List.Item>
       </List>
