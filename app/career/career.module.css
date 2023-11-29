@@ -2,3 +2,28 @@
   background: radial-gradient(circle at bottom right, var(--mantine-color-blue-7), transparent 30%);
   background-size: cover;
 }
+
+.skyscanner-blue-bullet [data-with-child] {
+  background-color: var(--g170-skyscanner-blue);
+  border-color: var(--g170-skyscanner-blue);
+}
+
+.dazn-black-bullet [data-with-child] {
+  background-color: var(--g170-dazn-black);
+  border-color: var(--g170-dazn-black);
+}
+
+.cgi-red-bullet [data-with-child] {
+  background-color: var(--g170-cgi-red);
+  border-color: var(--g170-cgi-red);
+  padding-right: rem(2px);
+}
+
+.oceanwise-blue-bullet [data-with-child] {
+  background-color: var(--g170-oceanwise-blue);
+  border-color: var(--g170-oceanwise-blue);
+}
+
+.logo-link {
+  line-height: 1;
+}

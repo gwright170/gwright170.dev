@@ -16,7 +16,9 @@ const cards: ExpertiseCardParams[] = [
           </List.Item>
           <List.Item icon="📚">
             <b>Libraries</b>
-            <br /> React, Next.js, RxJS, tailwindcss, Express.js, RTL
+            <br /> React, Next.js, RxJS, Express.js,
+            <br />
+            react-testing-library
           </List.Item>
         </List>
       </>
@@ -56,8 +58,9 @@ const cards: ExpertiseCardParams[] = [
         </Text>
         <List mt={8} spacing="sm" size="md">
           <List.Item icon="🤟">
-            <b>My other languages</b>
-            <br /> Java, Python (wow, such diversity)
+            <b>Languages </b>
+            <br /> Java, Python, (wow, such diversity). Some PostgreSQL and
+            Redis too.
           </List.Item>
           <List.Item icon="✨">
             <b>Buzzwords</b>
