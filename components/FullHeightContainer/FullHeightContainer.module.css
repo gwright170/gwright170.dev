@@ -1,5 +1,6 @@
 .full-height-container {
   min-height: calc(100vh - var(--g170-menu-height));
+  min-height: calc(100svh - var(--g170-menu-height));
   display: flex;
   align-items: center;
   /* nasty hack to override injected mt + mb from Container that we do not want */

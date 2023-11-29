@@ -1,24 +1,22 @@
 'use client';
 
-import { SimpleGrid, Skeleton, Title, rem } from '@mantine/core';
+import { SimpleGrid } from '@mantine/core';
+import { ExpertiseCard } from '../../components/ExpertiseCard/ExpertiseCard';
 import { FullHeightContainer } from '../../components/FullHeightContainer/FullHeightContainer';
+import { cards } from './cards';
 import classes from './expertise.module.css';
 
-// TODO: can we remove use client after cleaning up rem?
-const PRIMARY_COL_HEIGHT = rem(300);
-
 const Page = () => (
-  <FullHeightContainer my="md" background={classes['background']}>
-    <Title>My expertise</Title>
-
-    <SimpleGrid
-      cols={{ base: 1, sm: 3 }}
-      spacing="md"
-      className={classes['marginTop']}
-    >
-      <Skeleton height={PRIMARY_COL_HEIGHT} radius="md" animate={false} />
-      <Skeleton height={PRIMARY_COL_HEIGHT} radius="md" animate={false} />
-      <Skeleton height={PRIMARY_COL_HEIGHT} radius="md" animate={false} />
+  <FullHeightContainer size="lg" background={classes['background']}>
+    <SimpleGrid cols={{ base: 1, sm: 3 }}>
+      {cards.map(card => (
+        <ExpertiseCard
+          key={card.title}
+          title={card.title}
+          content={card.content}
+          image={card.image}
+        />
+      ))}
     </SimpleGrid>
   </FullHeightContainer>
 );
