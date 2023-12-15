@@ -13,7 +13,7 @@ const FullHeightContainer = ({
 }) => (
   <div className={background}>
     <Container size={size} my="md" className={classes['full-height-container']}>
-      <div className={classes.content}>{children}</div>
+      <div className={classes['content']}>{children}</div>
     </Container>
   </div>
 );

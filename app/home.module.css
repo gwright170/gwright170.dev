@@ -1,37 +1,8 @@
-.content {
-  max-width: rem(600px);
-  margin-right: calc(var(--mantine-spacing-xl) * 3);
-
-  @media (max-width: $mantine-breakpoint-md) {
-    max-width: 100%;
-    margin-right: 0;
-  }
+.section {
+  margin-top: calc(var(--mantine-spacing-xl) * 2.5);
 }
 
-.title {
-  font-size: rem(44px);
-  line-height: 1.2;
-  font-weight: 900;
-  padding-top: 0px;
-
-  @media (max-width: $mantine-breakpoint-xs) {
-    font-size: rem(28px);
-  }
-}
-
-.control {
-  @media (max-width: $mantine-breakpoint-xs) {
-    flex: 1;
-  }
-}
-
-.highlight {
-  position: relative;
-  background-color: var(--mantine-color-yellow-7);
-  padding: rem(4px) rem(8px);
-}
-
-.background {
-  background: radial-gradient(circle at bottom right, var(--mantine-color-yellow-7), transparent 30%);
-  background-size: cover;
+.section-bottom {
+  margin-top: calc(var(--mantine-spacing-xl) * 2.5);
+  margin-bottom: calc(var(--mantine-spacing-xl) * 2.5);
 }

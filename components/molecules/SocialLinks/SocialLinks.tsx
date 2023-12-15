@@ -1,14 +1,15 @@
-import { Group } from '@mantine/core';
+import { Text } from '@mantine/core';
+import classes from './SocialLinks.module.css';
 
 const SocialLinks = () => {
   return (
-    <Group mt={30}>
+    <Text className={classes['social-links']}>
       <a href="https://github.com/gwright170">GitHub</a>
-      <span>&#8226;</span>
+      <span>&nbsp;&#8226;&nbsp;</span>
       <a href="https://www.linkedin.com/in/gwright170">LinkedIn</a>
-      <span>&#8226;</span>
+      <span>&nbsp;&#8226;&nbsp;</span>
       <a href="https://www.x.com/gwright170">Twitter / 𝕏</a>
-    </Group>
+    </Text>
   );
 };
 
