@@ -1,6 +1,6 @@
 import { Container } from '@mantine/core';
-import { getSortedPostsData } from '../../../blog/getSortedPostsData';
-import { PostData } from '../../../types/PostData';
+import { getSortedPostsData } from '../../blog/getSortedPostsData';
+import { PostData } from '../../types/PostData';
 
 const generateStaticParams = () => getSortedPostsData();
 

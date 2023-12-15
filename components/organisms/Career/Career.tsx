@@ -7,6 +7,7 @@ const Career = () => (
     allowNextStepsSelect={false}
     size="lg"
     className={classes['container']}
+    color="#6741D9"
   >
     <Stepper.Step
       label="Skyscanner"
@@ -15,8 +16,8 @@ const Career = () => (
         <a href="https://www.skyscanner.net" className={classes['logo-link']}>
           <Image
             src="/icons/skyscanner.svg"
-            width={20}
-            height={20}
+            width={24}
+            height={24}
             alt="Skyscanner logo"
           />
         </a>
@@ -34,7 +35,7 @@ const Career = () => (
       className={classes['dazn-black-bullet']}
       icon={
         <a href="https://www.dazn.com" className={classes['logo-link']}>
-          <Image src="/icons/dazn.svg" width={30} height={30} alt="DAZN logo" />
+          <Image src="/icons/dazn.svg" width={32} height={32} alt="DAZN logo" />
         </a>
       }
       description={
@@ -50,7 +51,7 @@ const Career = () => (
       className={classes['cgi-red-bullet']}
       icon={
         <a href="https://www.cgi.com" className={classes['logo-link']}>
-          <Image src="/icons/cgi.svg" width={12} height={12} alt="CGI logo" />
+          <Image src="/icons/cgi.svg" width={16} height={16} alt="CGI logo" />
         </a>
       }
       description={
