@@ -4,6 +4,7 @@ import { Burger, Container, Group } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { ColorSchemeToggle } from '../../atoms/ColorSchemeToggle/ColorSchemeToggle';
 import { Logo } from '../../atoms/Logo/Logo';
 import classes from './Header.module.css';
 
@@ -31,12 +32,19 @@ const Header = () => {
   return (
     <header className={classes['header']}>
       <Container size="xl" className={classes['inner']}>
-        <Link href="/">
-          <Logo />
-        </Link>
-        <Group gap={5} visibleFrom="xs">
-          {items}
-        </Group>
+        <div className={classes['box']} style={{ justifyContent: 'left' }}>
+          <Group gap={5} visibleFrom="xs">
+            {items}
+          </Group>
+        </div>
+        <div className={classes['box']} style={{ justifyContent: 'center' }}>
+          <Link href="/">
+            <Logo />
+          </Link>
+        </div>
+        <div className={classes['box']} style={{ justifyContent: 'right' }}>
+          <ColorSchemeToggle />
+        </div>
         <Burger opened={opened} onClick={toggle} hiddenFrom="xs" size="sm" />
       </Container>
     </header>

@@ -11,11 +11,13 @@ const cards: CardParams[] = [
         </p>
         <p>
           <b>Core technologies</b>
-          <br /> TypeScript, Node.js, Babel, Webpack, ESLint, Jest
+          <br /> TypeScript, Node, Babel, Webpack,
+          <br />
+          ESLint, Jest
         </p>
         <p>
           <b>Libraries</b>
-          <br /> React, Next.js, RxJS, Express.js,
+          <br /> React, Next, RxJS, Express,
           <br />
           react-testing-library
         </p>

@@ -2,7 +2,12 @@ import { Image, Stepper } from '@mantine/core';
 import classes from './Career.module.css';
 
 const Career = () => (
-  <Stepper active={1} allowNextStepsSelect={false}>
+  <Stepper
+    active={1}
+    allowNextStepsSelect={false}
+    size="lg"
+    className={classes['container']}
+  >
     <Stepper.Step
       label="Skyscanner"
       className={classes['skyscanner-blue-bullet']}
@@ -29,12 +34,12 @@ const Career = () => (
       className={classes['dazn-black-bullet']}
       icon={
         <a href="https://www.dazn.com" className={classes['logo-link']}>
-          <Image src="/icons/dazn.svg" width={24} height={24} alt="DAZN logo" />
+          <Image src="/icons/dazn.svg" width={30} height={30} alt="DAZN logo" />
         </a>
       }
       description={
         <>
-          Core contributor to
+          Core contributor of
           <br />
           <a href="https://dazngroup.com/technology/">Mercury player</a>
         </>
@@ -52,7 +57,7 @@ const Career = () => (
         <>
           Lead the migration
           <br />
-          of data portal to React.js
+          of data portal to React
         </>
       }
     />

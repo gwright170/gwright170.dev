@@ -1,5 +1,8 @@
 .container {
   width: var(--g170-logo-width);
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .dark {

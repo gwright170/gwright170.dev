@@ -10,13 +10,15 @@
 .inner {
   height: var(--g170-menu-height);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+
+.box {
+  flex: 1;
+  display: flex;
 }
 
 .link {
   display: block;
-  line-height: 1;
   padding: rem(16px) rem(16px);
   text-decoration: none;
   color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));

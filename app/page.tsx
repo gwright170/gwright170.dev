@@ -17,7 +17,7 @@ const Page = () => (
         <Career />
       </div>
 
-      <div className={classes['section']}>
+      <div className={classes['section-bottom']}>
         <Expertise />
       </div>
     </div>

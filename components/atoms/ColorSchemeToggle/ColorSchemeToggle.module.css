@@ -1,11 +1,3 @@
-.container {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 1000;
-  padding: rem(22px);
-}
-
 .icon {
   width: rem(32px);
   height: rem(32px);
