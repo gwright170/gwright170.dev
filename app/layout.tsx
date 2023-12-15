@@ -24,7 +24,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
       <body>
         <MantineProvider theme={theme} cssVariablesResolver={resolver}>
           <Header />
-          {children}
+          <main>{children}</main>
         </MantineProvider>
       </body>
     </html>

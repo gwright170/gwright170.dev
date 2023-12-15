@@ -13,7 +13,7 @@
 
 .card {
   background-color: transparent;
-  border-left: rem(1px) solid var(--mantine-color-violet-3);
+  border-left: rem(1px) solid var(--mantine-color-grape-2);
   color: #fff;
   padding: 0 calc(var(--mantine-spacing-xl) * 1.5);
   border-radius: 0;

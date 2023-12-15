@@ -4,23 +4,20 @@ import { Container } from '@mantine/core';
 import { Career } from '../components/organisms/Career/Career';
 import { Expertise } from '../components/organisms/Expertise/Expertise';
 import { HeroTitle } from '../components/organisms/HeroTitle/HeroTitle';
-import classes from './home.module.css';
 
 const Page = () => (
   <Container size="xl">
-    <div className={classes['content']}>
-      <div className={classes['section']}>
-        <HeroTitle />
-      </div>
+    <section>
+      <HeroTitle />
+    </section>
 
-      <div className={classes['section']}>
-        <Career />
-      </div>
+    <section>
+      <Career />
+    </section>
 
-      <div className={classes['section']}>
-        <Expertise />
-      </div>
-    </div>
+    <section>
+      <Expertise />
+    </section>
   </Container>
 );
 
