@@ -1,13 +1,13 @@
 'use client';
 
-import { FullHeightContainer } from '../components/atoms/FullHeightContainer/FullHeightContainer';
+import { Container } from '@mantine/core';
 import { Career } from '../components/organisms/Career/Career';
 import { Expertise } from '../components/organisms/Expertise/Expertise';
 import { HeroTitle } from '../components/organisms/HeroTitle/HeroTitle';
 import classes from './home.module.css';
 
 const Page = () => (
-  <FullHeightContainer size="xl" background={classes['background']}>
+  <Container size="xl">
     <div className={classes['content']}>
       <div className={classes['section']}>
         <HeroTitle />
@@ -17,11 +17,11 @@ const Page = () => (
         <Career />
       </div>
 
-      <div className={classes['section-bottom']}>
+      <div className={classes['section']}>
         <Expertise />
       </div>
     </div>
-  </FullHeightContainer>
+  </Container>
 );
 
 export default Page;

@@ -55,9 +55,9 @@ const Career = () => (
       }
       description={
         <>
-          Lead the migration
+          Lead the development
           <br />
-          of data portal to React
+          of React data portal
         </>
       }
     />
@@ -71,7 +71,7 @@ const Career = () => (
       }
       description={
         <>
-          Lead rollout of RESTful
+          Lead development of RESTful
           <br />
           Web Mapping Systems
         </>

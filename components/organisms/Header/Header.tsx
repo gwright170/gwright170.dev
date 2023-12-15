@@ -28,7 +28,6 @@ const Header = () => {
     </Link>
   ));
 
-  // TODO: mobile menu doesn't work
   return (
     <header className={classes['header']}>
       <Container size="xl" className={classes['inner']}>
