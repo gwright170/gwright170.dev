@@ -1,37 +1,25 @@
 'use client';
 
-import { List, Title } from '@mantine/core';
-import { FullHeightContainer } from '../components/FullHeightContainer/FullHeightContainer';
-import { SocialLinks } from '../components/SocialLinks/SocialLinks';
+import { FullHeightContainer } from '../components/atoms/FullHeightContainer/FullHeightContainer';
+import { Career } from '../components/organisms/Career/Career';
+import { Expertise } from '../components/organisms/Expertise/Expertise';
+import { HeroTitle } from '../components/organisms/HeroTitle/HeroTitle';
 import classes from './home.module.css';
 
 const Page = () => (
-  <FullHeightContainer size="md" background={classes['background']}>
-    <div className={classes.content}>
-      <Title className={classes.title}>
-        <span className={classes.highlight}>Software Engineer</span>
-        <br />
-        front-end / full-stack
-      </Title>
+  <FullHeightContainer size="xl" background={classes['background']}>
+    <div className={classes['content']}>
+      <div className={classes['section']}>
+        <HeroTitle />
+      </div>
 
-      <List mt={30} spacing="sm" size="md">
-        <List.Item icon="👋">Hi, I&apos;m George!</List.Item>
-        <List.Item icon="💻">
-          A front-end / full-stack Software Engineer
-        </List.Item>
-        <List.Item icon="📺">
-          Experienced in adaptive bitrate streaming (MSE / EME)
-        </List.Item>
-        <List.Item icon="🛠️">Specialising in Node, TypeScript, React</List.Item>
-        <List.Item icon="📍">Working at Skyscanner, London</List.Item>
-      </List>
-      <List mt={30} spacing="sm" size="md">
-        <List.Item icon="🚀">
-          <i>Let&apos;s build together!</i>
-        </List.Item>
-      </List>
+      <div className={classes['section']}>
+        <Career />
+      </div>
 
-      <SocialLinks />
+      <div className={classes['section']}>
+        <Expertise />
+      </div>
     </div>
   </FullHeightContainer>
 );

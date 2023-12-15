@@ -22,6 +22,7 @@
   color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
   font-size: var(--mantine-font-size-md);
   font-weight: 500;
+  border-radius: var(--mantine-radius-md);
 
   @mixin hover {
     color: light-dark(var(--mantine-color-gray-9), var(--mantine-color-white));

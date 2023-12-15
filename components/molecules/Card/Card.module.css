@@ -1,0 +1,37 @@
+.title img {
+  position: absolute;
+  top: var(--mantine-spacing-md);
+  left: calc(var(--mantine-spacing-xl) * 1.5);
+}
+
+.title h3 {
+  padding-top: var(--mantine-spacing-lg);
+  padding-bottom: var(--mantine-spacing-xl);
+  padding-left: rem(50px);
+  color: #fff;
+}
+
+.card {
+  background-color: transparent;
+  border-left: rem(1px) solid var(--mantine-color-violet-3);
+  color: #fff;
+  padding: 0 calc(var(--mantine-spacing-xl) * 1.5);
+  border-radius: 0;
+  width: 100%;
+}
+
+.card:first-of-type {
+  border-left: none;
+  padding-left: 0;
+  .title img {
+    left: 0;
+  }
+}
+
+.card:last-of-type {
+  padding-right: 0;
+}
+
+.card p {
+  margin-top: 0;
+}

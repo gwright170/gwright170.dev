@@ -1,8 +1,8 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import { ReactNode } from 'react';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Header } from '../components/Header/Header';
+import { ColorSchemeToggle } from '../components/atoms/ColorSchemeToggle/ColorSchemeToggle';
+import { Header } from '../components/organisms/Header/Header';
 import { resolver, theme } from '../theme';
 import './globals.css';
 
