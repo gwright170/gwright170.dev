@@ -7,7 +7,7 @@ const Career = () => (
     allowNextStepsSelect={false}
     size="lg"
     className={classes['container']}
-    color="#6741D9"
+    color="#AE3EC9"
   >
     <Stepper.Step
       label="Skyscanner"
@@ -56,7 +56,7 @@ const Career = () => (
       }
       description={
         <>
-          Lead the development
+          Led the development
           <br />
           of React data portal
         </>
@@ -72,7 +72,7 @@ const Career = () => (
       }
       description={
         <>
-          Lead development of RESTful
+          Led development of RESTful
           <br />
           Web Mapping Systems
         </>

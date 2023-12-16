@@ -1,0 +1,10 @@
+.title {
+  padding-top: 0px;
+  text-align: center;
+  font-size: rem(44px);
+  font-weight: 900;
+}
+
+.metadata {
+  text-align: center;
+}
