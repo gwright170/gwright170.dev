@@ -14,6 +14,7 @@
 - [ ] stickiness of colour toggle
 - [ ] @ reference for components, lib, types
 - [ ] replace div sections with semantic sections
+- [ ] replace text with title to get h properties (component="h1")
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
 If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).

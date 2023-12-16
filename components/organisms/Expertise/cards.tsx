@@ -30,8 +30,8 @@ const cards: CardParams[] = [
     content: (
       <>
         <p>
-          I also dabble in back-end and full-stack development, mostly from the
-          perspective of system design.
+          I also dabble in back-end and full-stack development, mostly from a
+          system design perspective.
         </p>
         <p>
           <b>Languages</b>
