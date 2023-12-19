@@ -22,3 +22,17 @@
 .container span:last-of-type {
   line-height: var(--mantine-line-height);
 }
+
+.container > div {
+  @media (max-width: $mantine-breakpoint-sm) {
+    margin-left: calc(var(--mantine-spacing-lg));
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+.container br {
+  @media (max-width: $mantine-breakpoint-sm) {
+    display: none;
+  }
+}

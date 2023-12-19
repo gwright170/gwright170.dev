@@ -35,3 +35,15 @@
     background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-6));
   }
 }
+
+.burger {
+  opacity: 0.7;
+  @mixin hover {
+    opacity: 1;
+  }
+}
+
+.drawer section {
+  margin-top: var(--g170-menu-height);
+  color: red;
+}

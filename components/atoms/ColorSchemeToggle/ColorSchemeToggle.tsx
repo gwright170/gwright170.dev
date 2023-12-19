@@ -1,7 +1,6 @@
 'use client';
 
 import {
-  Group,
   UnstyledButton,
   useComputedColorScheme,
   useMantineColorScheme,
@@ -17,25 +16,17 @@ const ColorSchemeToggle = () => {
   });
 
   return (
-    <Group className={classes['container']}>
-      <UnstyledButton
-        onClick={() =>
-          setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')
-        }
-        variant="default"
-        size="xl"
-        aria-label="Toggle color scheme"
-      >
-        <IconSun
-          className={cx(classes['icon'], classes['light'])}
-          stroke={1.5}
-        />
-        <IconMoon
-          className={cx(classes['icon'], classes['dark'])}
-          stroke={1.5}
-        />
-      </UnstyledButton>
-    </Group>
+    <UnstyledButton
+      onClick={() =>
+        setColorScheme(computedColorScheme === 'light' ? 'dark' : 'light')
+      }
+      variant="default"
+      size="xl"
+      aria-label="Toggle color scheme"
+    >
+      <IconSun className={cx(classes['icon'], classes['light'])} stroke={1.5} />
+      <IconMoon className={cx(classes['icon'], classes['dark'])} stroke={1.5} />
+    </UnstyledButton>
   );
 };
 

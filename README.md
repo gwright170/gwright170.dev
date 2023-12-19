@@ -6,15 +6,13 @@
 - [ ] CSS prettify
 - [ ] CSS modules eslint plugin
 - [ ] Rework README.md
-- [ ] Update theme colours
-- [ ] mobile optimisation
 - [ ] big cleanup
-- [ ] light / dark mode optimisation
-- [ ] blog
-- [ ] stickiness of colour toggle
 - [ ] @ reference for components, lib, types
 - [ ] replace div sections with semantic sections
 - [ ] replace text with title to get h properties (component="h1")
+- [ ] 404 page, empty blog handling
+- [ ] ensure site is accessible
+- [ ] update favicon
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
 If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).

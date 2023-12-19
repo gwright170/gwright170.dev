@@ -7,14 +7,14 @@ main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  color: light-dark(var(--mantine-color-dark-6), var(--mantine-color-white));
   font-family: Greycliff CF, var(--mantine-font-family);
 
   padding-top: calc(var(--mantine-spacing-xl));
 }
 
 a {
-  color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-dark-0));
+  color: light-dark(var(--mantine-color-violet-9), var(--mantine-color-violet-4));
   text-decoration: none;
 }
 
