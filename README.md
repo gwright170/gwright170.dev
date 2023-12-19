@@ -13,6 +13,7 @@
 - [ ] 404 page, empty blog handling
 - [ ] ensure site is accessible
 - [ ] update favicon
+- [ ] fix company icons on mobile
 
 This is a template for [Next.js](https://nextjs.org/) app router + [Mantine](https://mantine.dev/).
 If you want to use pages router instead, see [next-pages-template](https://github.com/mantinedev/next-pages-template).

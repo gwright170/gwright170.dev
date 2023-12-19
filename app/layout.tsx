@@ -1,5 +1,6 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
+import { Analytics } from '@vercel/analytics/react';
 import { ReactNode } from 'react';
 import { Header } from '../components/organisms/Header/Header';
 import { resolver, theme } from '../theme';
@@ -25,6 +26,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
         <MantineProvider theme={theme} cssVariablesResolver={resolver}>
           <Header />
           <main>{children}</main>
+          <Analytics />
         </MantineProvider>
       </body>
     </html>
