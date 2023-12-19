@@ -1,4 +1,4 @@
-import { Image, Stepper } from '@mantine/core';
+import { Image, Stepper, Text } from '@mantine/core';
 import classes from './Career.module.css';
 
 const Career = () => (
@@ -24,9 +24,12 @@ const Career = () => (
       }
       description={
         <>
-          Building the
+          Building the&nbsp;
           <br />
           <a href="https:/developers.skyscanner.net">developer API</a>
+          <Text size="sm" mt={8}>
+            2023 - present
+          </Text>
         </>
       }
     />
@@ -40,9 +43,12 @@ const Career = () => (
       }
       description={
         <>
-          Core contributor of
+          Core contributor of&nbsp;
           <br />
           <a href="https://dazngroup.com/technology/">Mercury player</a>
+          <Text size="sm" mt={8}>
+            2021 - 2023
+          </Text>
         </>
       }
     />
@@ -56,9 +62,12 @@ const Career = () => (
       }
       description={
         <>
-          Led the development
+          Led development of&nbsp;
           <br />
-          of React data portal
+          React data portal
+          <Text size="sm" mt={8}>
+            2019 - 2021
+          </Text>
         </>
       }
     />
@@ -72,9 +81,12 @@ const Career = () => (
       }
       description={
         <>
-          Led development of RESTful
+          Led development of&nbsp;
           <br />
-          Web Mapping Systems
+          Web Mapping Services
+          <Text size="sm" mt={8}>
+            2014 - 2019
+          </Text>
         </>
       }
     />
