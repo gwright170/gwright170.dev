@@ -11,8 +11,6 @@
 - [ ] replace div sections with semantic sections
 - [ ] replace text with title to get h properties (component="h1")
 - [ ] ensure site is accessible
-- [ ] fix company icons on mobile
-- [ ] return 404 for invalid blog posts
 
 
 <a href="https://storyset.com/people">People illustrations by Storyset</a>

@@ -1,4 +1,8 @@
 import { Image, Stepper, Text } from '@mantine/core';
+import NextImage from 'next/image';
+import cgiLogo from '../../../public/icons/cgi.svg';
+import daznLogo from '../../../public/icons/dazn.svg';
+import skyscannerLogo from '../../../public/icons/skyscanner.svg';
 import classes from './Career.module.css';
 
 const Career = () => (
@@ -15,10 +19,11 @@ const Career = () => (
       completedIcon={
         <a href="https://www.skyscanner.net" className={classes['logo-link']}>
           <Image
-            src="/icons/skyscanner.svg"
-            width={24}
-            height={24}
-            alt="Skyscanner logo"
+            component={NextImage}
+            w="70%"
+            h="auto"
+            src={skyscannerLogo}
+            alt="Skyscanner Logo"
           />
         </a>
       }
@@ -38,7 +43,13 @@ const Career = () => (
       className={classes['dazn-black-bullet']}
       icon={
         <a href="https://www.dazn.com" className={classes['logo-link']}>
-          <Image src="/icons/dazn.svg" width={32} height={32} alt="DAZN logo" />
+          <Image
+            component={NextImage}
+            w="80%"
+            h="auto"
+            src={daznLogo}
+            alt="DAZN Logo"
+          />
         </a>
       }
       description={
@@ -57,7 +68,13 @@ const Career = () => (
       className={classes['cgi-red-bullet']}
       icon={
         <a href="https://www.cgi.com" className={classes['logo-link']}>
-          <Image src="/icons/cgi.svg" width={16} height={16} alt="CGI logo" />
+          <Image
+            component={NextImage}
+            w="80%"
+            h="auto"
+            src={cgiLogo}
+            alt="CGI Logo"
+          />
         </a>
       }
       description={
