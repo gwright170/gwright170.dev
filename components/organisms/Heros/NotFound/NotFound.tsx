@@ -6,6 +6,19 @@ import classes from './NotFound.module.css';
 const NotFoundHero = () => (
   <SimpleGrid spacing={{ base: 40, sm: 80 }} cols={{ base: 1, sm: 2 }}>
     <div>
+      <Image
+        component={NextImage}
+        w="100%"
+        h="auto"
+        src={ErrorPana}
+        alt="Empty"
+        className={classes['image']}
+      />
+      <div className={classes['attribution']}>
+        <a href="https://storyset.com/web">Web illustrations by Storyset</a>
+      </div>
+    </div>
+    <div>
       <Title>We can&apos;t find this page...</Title>
       <Text c="dimmed" className={classes['text']}>
         The page you are trying to view does not exist. You may have mistyped
@@ -31,19 +44,6 @@ const NotFoundHero = () => (
       >
         blog
       </Button>
-    </div>
-    <div>
-      <Image
-        component={NextImage}
-        w="100%"
-        h="auto"
-        src={ErrorPana}
-        alt="Empty"
-        className={classes['image']}
-      />
-      <div className={classes['attribution']}>
-        <a href="https://storyset.com/web">Web illustrations by Storyset</a>
-      </div>
     </div>
   </SimpleGrid>
 );
