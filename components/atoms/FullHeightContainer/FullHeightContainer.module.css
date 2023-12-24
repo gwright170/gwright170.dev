@@ -1,0 +1,11 @@
+.full-height-container {
+  min-height: calc(100vh - var(--g170-menu-height) - calc(var(--mantine-spacing-xl) * 2.5));
+  display: flex;
+  align-items: center;
+  /* nasty hack to override injected mt + mb from Container that we do not want */
+  margin: 0 auto !important;
+}
+  
+.content {
+  width: 100%;
+}

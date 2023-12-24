@@ -1,7 +1,7 @@
 import { Container } from '@mantine/core';
 import { sortedPostsData } from '../../blog/sortedPostsData';
 import { ArticlePaper } from '../../components/organisms/ArticlePaper/ArticlePaper';
-import { HeroTitle } from '../../components/organisms/HeroTitle/HeroTitle';
+import { TitleHero } from '../../components/organisms/Heros/Title/Title';
 import classes from './blog.module.css';
 
 const { sorted } = sortedPostsData;
@@ -9,7 +9,7 @@ const { sorted } = sortedPostsData;
 const Page = () => (
   <Container size="sm">
     <section>
-      <HeroTitle />
+      <TitleHero />
     </section>
     {sorted.map(post => (
       <section key={post.id} className={classes['tighter-section']}>

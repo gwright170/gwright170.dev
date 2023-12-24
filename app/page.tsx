@@ -3,12 +3,12 @@
 import { Container } from '@mantine/core';
 import { Career } from '../components/organisms/Career/Career';
 import { Expertise } from '../components/organisms/Expertise/Expertise';
-import { HeroTitle } from '../components/organisms/HeroTitle/HeroTitle';
+import { TitleHero } from '../components/organisms/Heros/Title/Title';
 
 const Page = () => (
   <Container size="xl">
     <section>
-      <HeroTitle />
+      <TitleHero />
     </section>
 
     <section>

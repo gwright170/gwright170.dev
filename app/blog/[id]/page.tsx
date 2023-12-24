@@ -1,5 +1,6 @@
 import { Container, Text, Title } from '@mantine/core';
 import Markdown from 'markdown-to-jsx';
+import { notFound } from 'next/navigation';
 import { sortedPostsData } from '../../../blog/sortedPostsData';
 import { PostData } from '../../../types/PostData';
 import classes from './blogpost.module.css';
@@ -9,6 +10,8 @@ const generateStaticParams = () => sortedPostsData.sorted;
 const Page = ({ params }: { params: PostData }) => {
   const { id } = params;
   const post = sortedPostsData.posts[id];
+
+  if (!post) return notFound();
 
   return (
     <Container size="sm">
