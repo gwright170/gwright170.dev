@@ -12,13 +12,13 @@
   padding-top: var(--mantine-spacing-lg);
   padding-bottom: var(--mantine-spacing-xl);
   padding-left: rem(50px);
-  color: #fff;
+  color: var(--mantine-color-white);
 }
 
 .card {
   background-color: transparent;
   border-left: rem(1px) solid var(--mantine-color-grape-2);
-  color: #fff;
+  color: var(--mantine-color-white);
   padding: 0 calc(var(--mantine-spacing-xl) * 1.5);
   border-radius: 0;
   width: 100%;

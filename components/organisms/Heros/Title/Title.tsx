@@ -1,9 +1,9 @@
 import { Avatar, Text, Title } from '@mantine/core';
 import Image from 'next/image';
-import { SocialLinks } from '../../molecules/SocialLinks/SocialLinks';
-import classes from './HeroTitle.module.css';
+import { SocialLinks } from '../../../molecules/SocialLinks/SocialLinks';
+import classes from './Title.module.css';
 
-const HeroTitle = () => (
+const TitleHero = () => (
   <>
     <Avatar
       variant="filled"
@@ -26,4 +26,4 @@ const HeroTitle = () => (
   </>
 );
 
-export { HeroTitle };
+export { TitleHero };
