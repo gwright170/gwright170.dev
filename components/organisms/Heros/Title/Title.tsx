@@ -13,10 +13,14 @@ const TitleHero = () => (
       <Image src="/dp.png" width={140} height={140} alt="George" />
     </Avatar>
     <div className={classes['title']}>
-      <Text variant="gradient" className={classes['primary-title']}>
+      <Text
+        component="h1"
+        variant="gradient"
+        className={classes['primary-title']}
+      >
         George Wright
       </Text>
-      <Title className={classes['secondary-title']}>
+      <Title order={2} className={classes['secondary-title']}>
         full-stack / front-end
         <br />
         software engineer

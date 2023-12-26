@@ -26,9 +26,9 @@ const Page = ({ params }: { params: PostData }) => {
             </span>
           </Text>
         </section>
-        <section>
+        <article>
           <Markdown>{post.content}</Markdown>
-        </section>
+        </article>
       </div>
     </Container>
   );

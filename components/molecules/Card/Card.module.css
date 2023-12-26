@@ -8,10 +8,10 @@
   }
 }
 
-.title h3 {
+.title h4 {
   padding-top: var(--mantine-spacing-lg);
   padding-bottom: var(--mantine-spacing-xl);
-  padding-left: rem(50px);
+  padding-left: rem(48px);
   color: var(--mantine-color-white);
 }
 

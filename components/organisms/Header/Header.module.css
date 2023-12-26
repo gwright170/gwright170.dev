@@ -9,6 +9,7 @@
   
 .inner {
   height: var(--g170-menu-height);
+  padding: 24px 0;
   display: flex;
 }
 
