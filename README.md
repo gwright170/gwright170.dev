@@ -8,9 +8,11 @@
 - [ ] Rework README.md
 - [ ] big cleanup
 - [ ] @ reference for components, lib, types
-- [ ] replace div sections with semantic sections
-- [ ] replace text with title to get h properties (component="h1")
-- [ ] ensure site is accessible
+- [ ] vars for font-sizes
+- [ ] resolve nasty hacks for style overrides
+- [ ] homepage section borders
+- [ ] integrate blog into homepage
+- [ ] top-level image + metadata for blog posts
 
 
 <a href="https://storyset.com/people">People illustrations by Storyset</a>

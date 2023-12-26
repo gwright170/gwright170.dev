@@ -3,14 +3,13 @@
 @tailwind utilities;
 
 main {
-  padding-bottom: calc(var(--mantine-spacing-xl) * 2.5);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: light-dark(var(--mantine-color-dark-6), var(--mantine-color-white));
   font-family: Greycliff CF, var(--mantine-font-family);
-
-  padding-top: calc(var(--mantine-spacing-xl));
+  padding-top: 0;
 }
 
 a {
@@ -18,6 +17,6 @@ a {
   text-decoration: none;
 }
 
-section {
-  margin-top: calc(var(--mantine-spacing-xl) * 2.5);
+section, article {
+  margin-top: var(--mantine-spacing-xl);
 }

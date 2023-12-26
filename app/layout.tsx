@@ -8,8 +8,12 @@ import { resolver, theme } from '../theme';
 import './globals.css';
 
 export const metadata = {
-  title: 'George Wright | Software Engineer',
-  description: 'George Wright is a Software Engineer based in London, UK.',
+  title: {
+    template: '%s | George Wright',
+    default: 'George Wright',
+  },
+  description:
+    'George Wright (@gwright170) is a Software Engineer based in London, UK.',
 };
 
 const RootLayout = ({ children }: { children: ReactNode }) => {

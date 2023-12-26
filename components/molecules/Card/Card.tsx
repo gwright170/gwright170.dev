@@ -7,7 +7,7 @@ const Card = ({ title, content, image }: CardParams) => (
   <MantineCard className={classes['card']}>
     <div className={classes['title']}>
       <Image src={image.path} width={35} height={35} alt={image.alt} />
-      <Title order={3}>{title}</Title>
+      <Title order={4}>{title}</Title>
     </div>
     {content}
   </MantineCard>

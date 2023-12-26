@@ -11,13 +11,8 @@ const Page = () => (
       <TitleHero />
     </section>
 
-    <section>
-      <Career />
-    </section>
-
-    <section>
-      <Expertise />
-    </section>
+    <Career />
+    <Expertise />
   </Container>
 );
 

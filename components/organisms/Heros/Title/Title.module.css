@@ -1,9 +1,8 @@
 .title {
-  padding-top: 0px;
   text-align: center;
     
   .primary-title {
-    font-size: rem(44px);
+    font-size: rem(40px);
     font-weight: 900;
     background-image: linear-gradient(
       -60deg,
@@ -13,10 +12,9 @@
   }
   
   .secondary-title {
-    font-size: rem(36px);
+    font-size: rem(32px);
     line-height: 1.2;
     font-weight: 900;
-    padding-top: 0px;
   }
 }
   
