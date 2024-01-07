@@ -1,7 +1,7 @@
+import logoDark from '@/public/logo-dark.svg';
+import logoLight from '@/public/logo-light.svg';
 import { Image } from '@mantine/core';
 import NextImage from 'next/image';
-import logoDark from '../../../public/logo-dark.svg';
-import logoLight from '../../../public/logo-light.svg';
 import classes from './Logo.module.css';
 
 const Logo = () => (

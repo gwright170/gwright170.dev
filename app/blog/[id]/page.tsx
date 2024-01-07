@@ -1,8 +1,8 @@
+import { sortedPostsData } from '@/blog/sortedPostsData';
+import { PostData } from '@/types/PostData';
 import { Container, Text, Title } from '@mantine/core';
 import Markdown from 'markdown-to-jsx';
 import { notFound } from 'next/navigation';
-import { sortedPostsData } from '../../../blog/sortedPostsData';
-import { PostData } from '../../../types/PostData';
 import classes from './blogpost.module.css';
 
 const generateStaticParams = () => sortedPostsData.sorted;

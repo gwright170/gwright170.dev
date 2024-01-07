@@ -1,6 +1,6 @@
+import { sortedPostsData } from '@/blog/sortedPostsData';
+import { PostData } from '@/types/PostData';
 import { Metadata } from 'next';
-import { sortedPostsData } from '../../../blog/sortedPostsData';
-import { PostData } from '../../../types/PostData';
 import Page from './page';
 
 const generateMetadata = ({ params }: { params: PostData }): Metadata => {

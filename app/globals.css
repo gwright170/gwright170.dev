@@ -6,17 +6,28 @@ main {
   padding-bottom: calc(var(--mantine-spacing-xl) * 2);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: light-dark(var(--mantine-color-dark-6), var(--mantine-color-white));
-  font-family: Greycliff CF, var(--mantine-font-family);
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
   padding-top: 0;
 }
 
 a {
-  color: light-dark(var(--mantine-color-violet-9), var(--mantine-color-violet-4));
+  color: light-dark(
+    var(--mantine-color-violet-9),
+    var(--mantine-color-violet-4)
+  );
   text-decoration: none;
 }
 
-section, article {
+section,
+article {
   margin-top: var(--mantine-spacing-xl);
 }

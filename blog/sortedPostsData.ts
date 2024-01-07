@@ -1,7 +1,7 @@
+import { PostData } from '@/types/PostData';
 import fs from 'fs';
 import matter from 'gray-matter';
 import path from 'path';
-import { PostData } from '../types/PostData';
 
 const postsDirectory = path.join(process.cwd(), 'blog', 'posts');
 

@@ -12,8 +12,14 @@
 }
 
 .outline-button {
-  color: light-dark(var(--mantine-color-violet-9), var(--mantine-color-violet-6));
-  border-color: light-dark(var(--mantine-color-violet-9), var(--mantine-color-violet-6));
+  color: light-dark(
+    var(--mantine-color-violet-9),
+    var(--mantine-color-violet-6)
+  );
+  border-color: light-dark(
+    var(--mantine-color-violet-9),
+    var(--mantine-color-violet-6)
+  );
 }
 
 .filled-button {
