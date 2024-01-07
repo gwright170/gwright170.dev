@@ -1,6 +1,6 @@
+import { SocialLinks } from '@/components/molecules/SocialLinks/SocialLinks';
 import { Avatar, Text, Title } from '@mantine/core';
 import Image from 'next/image';
-import { SocialLinks } from '../../../molecules/SocialLinks/SocialLinks';
 import classes from './Title.module.css';
 
 const TitleHero = () => (

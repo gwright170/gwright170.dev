@@ -1,16 +1,16 @@
+import { Header } from '@/components/organisms/Header/Header';
+import { resolver, theme } from '@/theme';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ReactNode } from 'react';
-import { Header } from '../components/organisms/Header/Header';
-import { resolver, theme } from '../theme';
 import './globals.css';
 
 export const metadata = {
   title: {
-    template: '%s | George Wright',
-    default: 'George Wright',
+    template: '%s | George Wright - Software Engineer',
+    default: 'George Wright - Software Engineer',
   },
   description:
     'George Wright (@gwright170) is a Software Engineer based in London, UK.',

@@ -1,7 +1,7 @@
+import { sortedPostsData } from '@/blog/sortedPostsData';
+import { ArticlePaper } from '@/components/organisms/ArticlePaper/ArticlePaper';
+import { TitleHero } from '@/components/organisms/Heros/Title/Title';
 import { Container } from '@mantine/core';
-import { sortedPostsData } from '../../blog/sortedPostsData';
-import { ArticlePaper } from '../../components/organisms/ArticlePaper/ArticlePaper';
-import { TitleHero } from '../../components/organisms/Heros/Title/Title';
 
 const { sorted } = sortedPostsData;
 

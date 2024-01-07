@@ -1,4 +1,4 @@
-import { CardParams } from '../../../types/CardParams';
+import { CardParams } from '@/types/CardParams';
 
 const cards: CardParams[] = [
   {

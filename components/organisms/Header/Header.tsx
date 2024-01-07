@@ -1,12 +1,12 @@
 'use client';
 
+import { ColorSchemeToggle } from '@/components/atoms/ColorSchemeToggle/ColorSchemeToggle';
+import { Logo } from '@/components/atoms/Logo/Logo';
 import { Burger, Container, Drawer, Group, ScrollArea } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect } from 'react';
-import { ColorSchemeToggle } from '../../atoms/ColorSchemeToggle/ColorSchemeToggle';
-import { Logo } from '../../atoms/Logo/Logo';
 import classes from './Header.module.css';
 
 const links = [

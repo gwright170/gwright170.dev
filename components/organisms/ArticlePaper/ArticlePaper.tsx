@@ -1,7 +1,7 @@
+import { PostData } from '@/types/PostData';
 import { Paper, Text, Title } from '@mantine/core';
 import Markdown from 'markdown-to-jsx';
 import Link from 'next/link';
-import { PostData } from '../../../types/PostData';
 import classes from './ArticlePaper.module.css';
 
 const ArticlePaper = ({ post }: { post: PostData }) => {

@@ -1,8 +1,8 @@
+import cgiLogo from '@/public/icons/cgi.svg';
+import daznLogo from '@/public/icons/dazn.svg';
+import skyscannerLogo from '@/public/icons/skyscanner.svg';
 import { Image, Stepper, Text, Title } from '@mantine/core';
 import NextImage from 'next/image';
-import cgiLogo from '../../../public/icons/cgi.svg';
-import daznLogo from '../../../public/icons/dazn.svg';
-import skyscannerLogo from '../../../public/icons/skyscanner.svg';
 import classes from './Career.module.css';
 
 const Career = () => (
