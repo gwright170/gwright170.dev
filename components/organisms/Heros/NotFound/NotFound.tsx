@@ -1,6 +1,6 @@
+import ErrorPana from '@/public/404-pana.svg';
 import { Button, Image, SimpleGrid, Text, Title } from '@mantine/core';
 import NextImage from 'next/image';
-import ErrorPana from '../../../../public/404-pana.svg';
 import classes from './NotFound.module.css';
 
 const NotFoundHero = () => (

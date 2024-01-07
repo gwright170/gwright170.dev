@@ -1,6 +1,6 @@
+import { CardParams } from '@/types/CardParams';
 import { Card as MantineCard, Title } from '@mantine/core';
 import Image from 'next/image';
-import { CardParams } from '../../../types/CardParams';
 import classes from './Card.module.css';
 
 const Card = ({ title, content, image }: CardParams) => (

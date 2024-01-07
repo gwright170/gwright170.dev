@@ -1,5 +1,5 @@
+import { Card } from '@/components/molecules/Card/Card';
 import { SimpleGrid, Title } from '@mantine/core';
-import { Card } from '../../molecules/Card/Card';
 import { cards } from './cards';
 
 import classes from './Expertise.module.css';
