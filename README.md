@@ -6,7 +6,7 @@ Feel free to use this as a template for your own site.
 
 ## Features
 
-This template comes with the following features:
+This project comes with the following features:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
@@ -31,6 +31,15 @@ This template comes with the following features:
 
 - `prettier:write` – formats all files with Prettier
 
+## Editor setup
+
+I'd recommend using [VSCode](https://code.visualstudio.com/) with the following extensions:
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
+- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+
 ## What I'm working on
 
 CSS
@@ -49,7 +58,7 @@ SEO
 - [ ] top-level image + metadata for blog posts
 - [ ] breadcrumbs for blog posts
 
-CI
+Other
 
 - [ ] CI using GitHub Actions
-- [ ] Update packages
+- [ ] Move to GitHub issues
