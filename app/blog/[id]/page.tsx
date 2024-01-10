@@ -1,4 +1,4 @@
-import { sortedPostsData } from '@/blog/sortedPostsData';
+import { sortedPostsData } from '@/static/sortedPostsData';
 import { PostData } from '@/types/PostData';
 import { Container, Text, Title } from '@mantine/core';
 import Markdown from 'markdown-to-jsx';
@@ -15,7 +15,7 @@ const Page = ({ params }: { params: PostData }) => {
 
   return (
     <Container size="sm">
-      <div>
+      <article>
         <section>
           <Title className={classes['title']}>{post.title}</Title>
           <Text mt="sm" c="dimmed" className={classes['metadata']}>
@@ -26,10 +26,10 @@ const Page = ({ params }: { params: PostData }) => {
             </span>
           </Text>
         </section>
-        <article>
+        <section>
           <Markdown>{post.content}</Markdown>
-        </article>
-      </div>
+        </section>
+      </article>
     </Container>
   );
 };

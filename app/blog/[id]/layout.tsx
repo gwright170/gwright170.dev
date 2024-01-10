@@ -1,4 +1,4 @@
-import { sortedPostsData } from '@/blog/sortedPostsData';
+import { sortedPostsData } from '@/static/sortedPostsData';
 import { PostData } from '@/types/PostData';
 import { Metadata } from 'next';
 import Page from './page';

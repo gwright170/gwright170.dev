@@ -1,4 +1,4 @@
-import { Header } from '@/components/organisms/Header/Header';
+import { Header } from '@/components/molecules/Header';
 import { resolver, theme } from '@/theme';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
@@ -9,8 +9,8 @@ import './globals.css';
 
 export const metadata = {
   title: {
-    template: '%s | George Wright - Software Engineer',
-    default: 'George Wright - Software Engineer',
+    template: '%s | George Wright',
+    default: 'Front-end / Full-stack Software Engineer | George Wright',
   },
   description:
     'George Wright (@gwright170) is a Software Engineer based in London, UK.',
