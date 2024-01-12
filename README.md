@@ -52,6 +52,8 @@ Content
 - [ ] images for blog posts
 - [ ] avatar for blog post author
 - [ ] first blog post
+- [ ] footer
+- [ ] blog search
 
 SEO
 

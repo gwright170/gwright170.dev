@@ -5,6 +5,7 @@ import { TitleHero } from '@/components/molecules/Heros/Title';
 import { Projects } from '@/components/molecules/Projects';
 import { sortedPostsData } from '@/static/sortedPostsData';
 import { Container, SimpleGrid, Text, Title } from '@mantine/core';
+import classes from './page.module.css';
 
 const Page = () => (
   <Container size="xl">
@@ -29,13 +30,13 @@ const Page = () => (
     </section>
     <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="xl">
       <section>
-        <Title order={3}>Projects</Title>
+        <Title order={3}>Latest projects</Title>
         <Projects limit={2} />
       </section>
 
       {sortedPostsData.sorted.length > 0 && (
-        <section>
-          <Title order={3}>Latest blog post</Title>
+        <section className={classes['grow-to-sibling']}>
+          <Title order={3}>Latest blog posts</Title>
           <Blog limit={1} />
         </section>
       )}
