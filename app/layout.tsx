@@ -14,6 +14,16 @@ export const metadata = {
   },
   description:
     'George Wright (@gwright170) is a Software Engineer based in London, UK.',
+  creator: 'George Wright',
+  publisher: 'George Wright',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    url: 'https://gright170.dev/',
+    title: 'Front-end / Full-stack Software Engineer | George Wright',
+    siteName: 'gwright170.dev',
+    images: '/icons/dp.png',
+  },
 };
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
