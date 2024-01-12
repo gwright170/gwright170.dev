@@ -1,0 +1,19 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 150ms ease,
+    box-shadow 100ms ease;
+  padding: var(--mantine-spacing-xl);
+
+  @mixin hover {
+    box-shadow: var(--mantine-shadow-md);
+    transform: scale(1.02);
+  }
+}
+
+.icon {
+  width: rem(16px);
+  height: rem(16px);
+  stroke: 1.5;
+}

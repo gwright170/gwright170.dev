@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 const generateMetadata = (): Metadata => ({
-  title: 'Software Engineering Blog',
+  title: 'Personal Projects',
   /*openGraph: {
       images: ['/some-specific-page-image.jpg', ...previousImages],
     },*/

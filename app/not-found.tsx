@@ -1,7 +1,7 @@
 'use client';
 
-import { FullHeightContainer } from '@/components/atoms/FullHeightContainer/FullHeightContainer';
-import { NotFoundHero } from '@/components/organisms/Heros/NotFound/NotFound';
+import { FullHeightContainer } from '@/components/atoms/FullHeightContainer';
+import { NotFoundHero } from '@/components/molecules/NotFound';
 
 const Page = () => (
   <FullHeightContainer size="md">

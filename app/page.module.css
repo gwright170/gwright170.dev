@@ -1,0 +1,19 @@
+.grow-to-sibling {
+  display: flex;
+  flex-direction: column;
+}
+
+.grow-to-sibling article,
+.grow-to-sibling a {
+  display: flex;
+  flex: 1;
+}
+
+.grow-to-sibling a > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.grow-to-sibling a > div > p {
+  flex: 1;
+}

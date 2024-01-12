@@ -1,6 +1,6 @@
 # My personal site
 
-My personal site built with [Next.js](https://nextjs.org/) and [Mantine](https://mantine.dev/). Currently available at [https://gwright170.dev](gwright170.dev).
+My personal site built with [Next.js](https://nextjs.org/) and [Mantine](https://mantine.dev/). Currently available at [gwright170.dev](https://www.gwright170.dev).
 
 Feel free to use this as a template for your own site.
 
@@ -49,9 +49,11 @@ CSS
 
 Content
 
-- [ ] integrate blog into homepage
-- [ ] projects page (empty for now) + integrate into homepage
-- [ ] remove existing blog posts + handle no entries
+- [ ] images for blog posts
+- [ ] avatar for blog post author
+- [ ] first blog post
+- [ ] footer
+- [ ] blog search
 
 SEO
 
