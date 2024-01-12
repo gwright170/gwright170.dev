@@ -49,16 +49,10 @@ CSS
 
 Content
 
-- [ ] images for blog posts
+- [ ] update About Me text
 - [ ] avatar for blog post author
-- [ ] first blog post
-- [ ] footer
-- [ ] blog search
-
-SEO
-
 - [ ] top-level image + metadata for blog posts
-- [ ] breadcrumbs for blog posts
+- [ ] first blog post
 
 Other
 

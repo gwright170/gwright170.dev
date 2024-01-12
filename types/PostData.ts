@@ -4,6 +4,8 @@ interface PostData {
   title: string;
   excerpt: string;
   content: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 export type { PostData };
