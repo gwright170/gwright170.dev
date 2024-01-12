@@ -4,10 +4,11 @@ import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Metadata } from 'next';
 import { ReactNode } from 'react';
 import './globals.css';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     template: '%s | George Wright',
     default: 'Front-end / Full-stack Software Engineer | George Wright',
@@ -17,12 +18,12 @@ export const metadata = {
   creator: 'George Wright',
   publisher: 'George Wright',
   robots: 'index, follow',
+  keywords: 'George Wright, Software Engineer, Front-end, Full-stack',
   openGraph: {
     type: 'website',
     url: 'https://gright170.dev/',
     title: 'Front-end / Full-stack Software Engineer | George Wright',
     siteName: 'gwright170.dev',
-    images: '/icons/dp.png',
   },
 };
 

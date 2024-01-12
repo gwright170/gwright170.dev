@@ -8,15 +8,19 @@ const generateMetadata = ({ params }: { params: PostData }): Metadata => {
   return {
     title: post.title,
     description: post.excerpt,
-    creator: 'George Wright',
-    publisher: 'George Wright',
-    robots: 'index, follow',
     openGraph: {
       type: 'website',
-      url: `https://gright170.dev/blog/${params.id}`,
+      url: `https://gright170.dev/blog/${post.id}`,
       title: `${post.title} | George Wright`,
       siteName: 'gwright170.dev',
-      images: sortedPostsData.posts[params.id].image,
+      images: [
+        {
+          // won't work if post does not have an image
+          url: `https://gwright170.dev${post.image}`,
+          width: 1200,
+          height: 620,
+        },
+      ],
     },
   };
 };
