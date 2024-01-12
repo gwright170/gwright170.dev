@@ -1,16 +1,13 @@
-export const metadata = {
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
   title: 'Personal Projects',
-  description:
-    'George Wright (@gwright170) is a Software Engineer based in London, UK.',
-  creator: 'George Wright',
-  publisher: 'George Wright',
-  robots: 'index, follow',
+  keywords: 'George Wright, Software Engineer, Front-end, Full-stack, Projects',
   openGraph: {
     type: 'website',
     url: 'https://gright170.dev/blog',
     title: 'Personal Projects | George Wright',
     siteName: 'gwright170.dev',
-    images: '/icons/dp.png',
   },
 };
 

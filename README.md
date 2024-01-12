@@ -47,10 +47,9 @@ I'd recommend using [VSCode](https://code.visualstudio.com/) with the following 
 - [ ] CI using GitHub Actions
 - [ ] Move to GitHub issues
 
-Content
+Before LIVE
 
 - [ ] update About Me text
 - [ ] avatar for blog post author
 - [ ] first blog post
-
-Other
+- [ ] Switch to the absent tense
