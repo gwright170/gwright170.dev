@@ -42,19 +42,15 @@ I'd recommend using [VSCode](https://code.visualstudio.com/) with the following 
 
 ## What I'm working on
 
-CSS
-
-- [ ] create and use vars for default font-sizes
-- [ ] resolve nasty hacks for style overrides (dependent on structure)
+- [ ] create and use vars for default font-sizes (factors of 8px)
+- [ ] remove style overrides dependent on structure
+- [ ] CI using GitHub Actions
+- [ ] Move to GitHub issues
 
 Content
 
 - [ ] update About Me text
 - [ ] avatar for blog post author
-- [ ] top-level image + metadata for blog posts
 - [ ] first blog post
 
 Other
-
-- [ ] CI using GitHub Actions
-- [ ] Move to GitHub issues

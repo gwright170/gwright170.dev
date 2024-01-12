@@ -1,13 +1,19 @@
-import { Metadata } from 'next';
-
-const generateMetadata = (): Metadata => ({
+export const metadata = {
   title: 'Personal Projects',
-  /*openGraph: {
-      images: ['/some-specific-page-image.jpg', ...previousImages],
-    },*/
-});
+  description:
+    'George Wright (@gwright170) is a Software Engineer based in London, UK.',
+  creator: 'George Wright',
+  publisher: 'George Wright',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    url: 'https://gright170.dev/blog',
+    title: 'Personal Projects | George Wright',
+    siteName: 'gwright170.dev',
+    images: '/icons/dp.png',
+  },
+};
 
 const Page = ({ children }: { children: React.ReactNode }) => children;
 
-export { generateMetadata };
 export default Page;
