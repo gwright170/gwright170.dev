@@ -61,7 +61,7 @@ const cards: ExpertiseCardParams[] = [
         </p>
       </>
     ),
-    image: { path: '/emoji/television.png', alt: 'Television emoji' },
+    image: { path: '/icons/television.png', alt: 'Television emoji' },
   },
 ];
 

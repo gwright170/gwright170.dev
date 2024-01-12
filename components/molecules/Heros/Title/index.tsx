@@ -1,6 +1,6 @@
 import { SocialLinks } from '@/components/atoms/SocialLinks';
-import { Avatar, Text, Title } from '@mantine/core';
-import Image from 'next/image';
+import { Avatar, Image, Text, Title } from '@mantine/core';
+import NextImage from 'next/image';
 import { ReactNode } from 'react';
 import classes from './Title.module.css';
 
@@ -15,7 +15,13 @@ const TitleHero = ({ secondaryTitle }: TitleHeroParams) => (
       style={{ width: 120, height: 120 }}
       className={classes['avatar']}
     >
-      <Image src="/dp.png" width={140} height={140} alt="George" />
+      <Image
+        component={NextImage}
+        src="/icons/dp.png"
+        width={140}
+        height={140}
+        alt="Headshot of George Wright"
+      />
     </Avatar>
     <div className={classes['title']}>
       <Text

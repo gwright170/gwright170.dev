@@ -1,5 +1,5 @@
-import logoDark from '@/public/logo-dark.svg';
-import logoLight from '@/public/logo-light.svg';
+import logoDark from '@/public/logo/logo-dark.svg';
+import logoLight from '@/public/logo/logo-light.svg';
 import { Image } from '@mantine/core';
 import NextImage from 'next/image';
 import classes from './Logo.module.css';

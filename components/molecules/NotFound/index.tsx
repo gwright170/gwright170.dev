@@ -1,6 +1,6 @@
 import { CentredImage } from '@/components/atoms/CentredImage';
 import { NavigationButtons } from '@/components/atoms/NavigationButtons';
-import ErrorPana from '@/public/404-pana.svg';
+import ErrorPana from '@/public/images/404-pana.svg';
 import { SimpleGrid, Text, Title } from '@mantine/core';
 import classes from './NotFound.module.css';
 

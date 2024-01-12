@@ -1,7 +1,8 @@
 import { sortedPostsData } from '@/static/sortedPostsData';
 import { PostData } from '@/types/PostData';
-import { Container, Text, Title } from '@mantine/core';
+import { Container, Image, Text, Title } from '@mantine/core';
 import Markdown from 'markdown-to-jsx';
+import NextImage from 'next/image';
 import { notFound } from 'next/navigation';
 import classes from './blogpost.module.css';
 
@@ -16,6 +17,16 @@ const Page = ({ params }: { params: PostData }) => {
   return (
     <Container size="sm">
       <article>
+        {post.image && (
+          <Image
+            component={NextImage}
+            src={post.image}
+            radius="md"
+            width={1920}
+            height={300}
+            alt={post.imageAlt ? post.imageAlt : 'Blog header image'}
+          />
+        )}
         <section>
           <Title className={classes['title']}>{post.title}</Title>
           <Text mt="sm" c="dimmed" className={classes['metadata']}>
