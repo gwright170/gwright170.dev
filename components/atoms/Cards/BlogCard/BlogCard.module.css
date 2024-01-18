@@ -26,7 +26,3 @@
     );
   }
 }
-
-.dimmed-text {
-  color: var(--mantine-color-dimmed);
-}

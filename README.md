@@ -1,6 +1,6 @@
-# My personal site
+# Personal site
 
-My personal site built with [Next.js](https://nextjs.org/) and [Mantine](https://mantine.dev/). Currently available at [gwright170.dev](https://www.gwright170.dev).
+Personal site built with [Next.js](https://nextjs.org/) and [Mantine](https://mantine.dev/). Currently available at [gwright170.dev](https://www.gwright170.dev).
 
 Feel free to use this as a template for your own site.
 
@@ -49,7 +49,9 @@ I'd recommend using [VSCode](https://code.visualstudio.com/) with the following 
 
 Before LIVE
 
-- [ ] update About Me text
-- [ ] avatar for blog post author
 - [ ] first blog post
-- [ ] Switch to the absent tense
+- [ ] edge based open graph image is not working
+- [ ] why isn't Google indexing me well
+  - [ ] undefined title
+  - [ ] js text
+  - [ ] no icon

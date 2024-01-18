@@ -15,11 +15,11 @@ const BlogCard = ({
 
   return (
     <Link href={`/blog/${id}`}>
-      <Paper withBorder radius="md" className={classes.card}>
+      <Paper withBorder radius="md" className={classes['card']}>
         <Title order={4}>{post.title}</Title>
         {includeDetails && (
           <>
-            <Markdown className={classes['dimmed-text']}>
+            <Markdown style={{ color: 'var(--mantine-color-dark-2)' }}>
               {post.excerpt}
             </Markdown>
             <Text mt="sm">{post.date}</Text>

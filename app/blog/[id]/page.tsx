@@ -1,6 +1,6 @@
 import { sortedPostsData } from '@/static/sortedPostsData';
 import { PostData } from '@/types/PostData';
-import { Container, Image, Text, Title } from '@mantine/core';
+import { Avatar, Container, Image, Text, Title } from '@mantine/core';
 import Markdown from 'markdown-to-jsx';
 import NextImage from 'next/image';
 import { notFound } from 'next/navigation';
@@ -15,7 +15,7 @@ const Page = ({ params }: { params: PostData }) => {
   if (!post) return notFound();
 
   return (
-    <Container size="sm">
+    <Container size="md">
       <article>
         {post.image && (
           <Image
@@ -25,17 +25,25 @@ const Page = ({ params }: { params: PostData }) => {
             width={1920}
             height={300}
             alt={post.imageAlt ? post.imageAlt : 'Blog header image'}
+            mb="sm"
           />
         )}
+        <Avatar variant="filled" className={classes['avatar']}>
+          <Image
+            component={NextImage}
+            src="/icons/dp.png"
+            width={40}
+            height={40}
+            alt="Headshot of George Wright"
+          />
+        </Avatar>
+        <Text c="dimmed" className={classes['metadata']}>
+          {post.date}
+          &nbsp;&#8226;&nbsp;
+          <b>George Wright</b>
+        </Text>
         <section>
           <Title className={classes['title']}>{post.title}</Title>
-          <Text mt="sm" c="dimmed" className={classes['metadata']}>
-            <span>
-              <b>George Wright</b>
-              &nbsp;&#8226;&nbsp;
-              {post.date}
-            </span>
-          </Text>
         </section>
         <section>
           <Markdown>{post.content}</Markdown>

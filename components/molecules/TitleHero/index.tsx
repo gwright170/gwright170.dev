@@ -2,7 +2,7 @@ import { SocialLinks } from '@/components/atoms/SocialLinks';
 import { Avatar, Image, Text, Title } from '@mantine/core';
 import NextImage from 'next/image';
 import { ReactNode } from 'react';
-import classes from './Title.module.css';
+import classes from './TitleHero.module.css';
 
 interface TitleHeroParams {
   secondaryTitle: ReactNode | string;
@@ -10,11 +10,7 @@ interface TitleHeroParams {
 
 const TitleHero = ({ secondaryTitle }: TitleHeroParams) => (
   <>
-    <Avatar
-      variant="filled"
-      style={{ width: 120, height: 120 }}
-      className={classes['avatar']}
-    >
+    <Avatar variant="filled" className={classes['avatar']}>
       <Image
         component={NextImage}
         src="/icons/dp.png"

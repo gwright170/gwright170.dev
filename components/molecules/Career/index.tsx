@@ -29,9 +29,9 @@ const Career = () => (
         }
         description={
           <>
-            Building the&nbsp;
+            Working on SEO&nbsp;
             <br />
-            <a href="https:/developers.skyscanner.net">developer API</a>
+            page rendering
             <Text size="sm" mt={8}>
               2023 - present
             </Text>
@@ -97,7 +97,9 @@ const Career = () => (
         className={classes['oceanwise-blue-bullet']}
         icon={
           <a href="https://www.oceanwise.eu" className={classes['logo-link']}>
-            <div style={{ width: 42, height: 42 }}></div>
+            <div className={classes['oceanwise-logo']}>
+              <i>OceanWise</i>
+            </div>
           </a>
         }
         description={

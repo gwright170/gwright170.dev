@@ -32,8 +32,13 @@
   border-color: var(--g170-oceanwise-blue);
 }
 
-.container span:last-of-type {
-  line-height: var(--mantine-line-height);
+.oceanwise-logo {
+  width: 42px;
+  height: 42px;
+  color: var(--mantine-color-white) !important;
+  font-size: rem(6px);
+  text-align: center;
+  line-height: rem(42px);
 }
 
 .container > div {

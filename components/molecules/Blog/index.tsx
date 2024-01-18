@@ -14,7 +14,7 @@ const Blog = ({ limit }: BlogProps) => {
   if (posts.length === 0)
     return (
       <section>
-        <Text c="dimmed" style={{ textAlign: 'center' }}>
+        <Text c="var(--mantine-color-dark-2)" style={{ textAlign: 'center' }}>
           There&apos;s nothing here yet...
         </Text>
       </section>
