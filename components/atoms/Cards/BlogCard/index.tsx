@@ -19,9 +19,7 @@ const BlogCard = ({
         <Title order={4}>{post.title}</Title>
         {includeDetails && (
           <>
-            <Markdown style={{ color: 'var(--mantine-color-dark-2)' }}>
-              {post.excerpt}
-            </Markdown>
+            <Markdown>{post.excerpt}</Markdown>
             <Text mt="sm">{post.date}</Text>
           </>
         )}

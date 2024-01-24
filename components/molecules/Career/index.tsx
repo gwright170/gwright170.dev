@@ -29,9 +29,9 @@ const Career = () => (
         }
         description={
           <>
-            Working on SEO&nbsp;
+            SEO platform&nbsp;
             <br />
-            page rendering
+            enablement
             <Text size="sm" mt={8}>
               2023 - present
             </Text>

@@ -5,15 +5,10 @@ const cards: ExpertiseCardParams[] = [
     title: 'Front-end',
     content: (
       <>
-        <p>
-          The bread and butter is building interactive, efficient, and scalable
-          web applications.
-        </p>
+        <p>Building interactive, efficient, and scalable web applications.</p>
         <p>
           <b>Core technologies</b>
-          <br /> TypeScript, Node, Babel, Webpack,
-          <br />
-          ESLint, Jest
+          <br /> TypeScript, Node, Babel, Webpack, ESLint, Jest
         </p>
         <p>
           <b>Libraries</b>
@@ -30,8 +25,8 @@ const cards: ExpertiseCardParams[] = [
     content: (
       <>
         <p>
-          Also dabbles in back-end and full-stack development, mostly from a
-          system design perspective.
+          Bck-end and full-stack development, mostly from a system design
+          perspective.
         </p>
         <p>
           <b>Languages</b>

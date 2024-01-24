@@ -1,12 +1,21 @@
 .container {
   display: grid;
-  background-image: linear-gradient(
-    -60deg,
-    var(--mantine-color-violet-8) 0%,
-    var(--mantine-color-grape-7) 100%
+  background-image: light-dark(
+    linear-gradient(
+      -60deg,
+      var(--mantine-color-violet-6) 0%,
+      var(--mantine-color-grape-5) 100%
+    ),
+    linear-gradient(
+      -60deg,
+      var(--mantine-color-violet-9) 0%,
+      var(--mantine-color-grape-9) 100%
+    )
   );
   padding: calc(var(--mantine-spacing-xl) * 1.5);
   border-radius: var(--mantine-radius-md);
+  border: calc(0.0625rem * var(--mantine-scale)) solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
 
   @media (max-width: $mantine-breakpoint-sm) {
     flex-direction: column;
@@ -17,6 +26,6 @@
   flex-grow: 1;
   width: 100%;
   margin-bottom: calc(var(--mantine-spacing-xl) * 2);
-  color: var(--mantine-color-grape-2);
+  color: light-dark(var(--mantine-color-grape-0), var(--mantine-color-grape-2));
   text-align: center;
 }

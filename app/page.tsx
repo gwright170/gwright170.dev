@@ -22,7 +22,7 @@ const Page = () => (
     </section>
     <section>
       <Title order={3}>About</Title>
-      <Text c="var(--mantine-color-dark-2)">
+      <Text className={classes['about-text']}>
         9 years experience working with JavaScript, TypeScript and the web
         stack. Worked on a variety of projects, from small-scale web mapping
         applications to large-scale video streaming platforms and high-traffic
@@ -44,8 +44,8 @@ const Page = () => (
         </section>
       )}
     </SimpleGrid>
-    <Career />
     <Expertise />
+    <Career />
   </Container>
 );
 
