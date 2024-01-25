@@ -32,8 +32,13 @@
   border-color: var(--g170-oceanwise-blue);
 }
 
-.container span:last-of-type {
-  line-height: var(--mantine-line-height);
+.oceanwise-logo {
+  width: 42px;
+  height: 42px;
+  color: var(--mantine-color-white) !important;
+  font-size: rem(6px);
+  text-align: center;
+  line-height: rem(42px);
 }
 
 .container > div {
@@ -52,10 +57,14 @@
 .container {
   background-color: light-dark(
     var(--mantine-color-gray-1),
-    var(--mantine-color-dark-6)
+    var(--mantine-color-dark-8)
   );
   padding: calc(var(--mantine-spacing-xl) * 1.5);
   border-radius: var(--mantine-radius-md);
+  box-shadow: var(--mantine-shadow-sm);
+
+  border: calc(0.0625rem * var(--mantine-scale)) solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
 }
 
 .container br {
@@ -65,7 +74,6 @@
 }
 
 .container h3 {
-  color: light-dark(var(--mantine-color-dark-3), var(--mantine-color-dark-2));
   margin-bottom: calc(var(--mantine-spacing-xl) * 2);
   text-align: center;
 }
@@ -78,5 +86,6 @@
 }
 
 .container span {
-  color: light-dark(var(--mantine-color-dark-3), var(--mantine-color-dark-2));
+  color: var(--mantine-color-text);
+  line-height: var(--mantine-line-height);
 }

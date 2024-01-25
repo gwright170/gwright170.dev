@@ -17,3 +17,8 @@
 .grow-to-sibling a > div > p {
   flex: 1;
 }
+
+.about-text {
+  margin-top: var(--mantine-spacing-md);
+  margin-bottom: var(--mantine-spacing-md);
+}

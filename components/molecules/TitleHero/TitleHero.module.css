@@ -20,4 +20,10 @@
 
 .avatar {
   margin: 0 auto;
+  width: 120px;
+  height: 120px;
+}
+
+.avatar > span {
+  background-color: #363a3f !important;
 }

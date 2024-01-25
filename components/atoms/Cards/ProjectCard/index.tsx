@@ -28,9 +28,7 @@ const ProjectCard = (project: ProjectCardParams) => {
           />
           <div>
             <Title order={4}>{project.title}</Title>
-            <Text mt="sm" c="dimmed">
-              {project.excerpt}
-            </Text>
+            <Text mt="sm">{project.excerpt}</Text>
           </div>
         </Group>
       </Paper>

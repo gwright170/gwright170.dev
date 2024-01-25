@@ -1,5 +1,5 @@
 import { Blog } from '@/components/molecules/Blog';
-import { TitleHero } from '@/components/molecules/Heros/Title';
+import { TitleHero } from '@/components/molecules/TitleHero';
 import { Container } from '@mantine/core';
 
 const Page = () => (

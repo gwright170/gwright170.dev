@@ -11,7 +11,7 @@
 
 .filled-button {
   background-color: var(--mantine-color-violet-8);
-  color: var(--mantine-color-white) !important;
+  color: var(--mantine-color-text) !important;
 }
 
 .filled-button:hover {
