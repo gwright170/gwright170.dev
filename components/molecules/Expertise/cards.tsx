@@ -25,7 +25,7 @@ const cards: ExpertiseCardParams[] = [
     content: (
       <>
         <p>
-          Bck-end and full-stack development, mostly from a system design
+          Back-end and full-stack development, mostly from a system design
           perspective.
         </p>
         <p>
@@ -44,7 +44,7 @@ const cards: ExpertiseCardParams[] = [
     title: 'Video playback',
     content: (
       <>
-        <p>A core contributor of Mercury, DAZN&apos;s custom MSE/EME player.</p>
+        <p>Core contributor of Mercury, DAZN&apos;s custom MSE/EME player.</p>
         <p>
           Mercury improved the streaming experience under challenging network
           conditions and unlocked dynamic advertising on legacy devices. It
