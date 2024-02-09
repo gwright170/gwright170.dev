@@ -16,7 +16,7 @@ const TitleHero = ({ secondaryTitle }: TitleHeroParams) => (
         src="/icons/dp.png"
         width={140}
         height={140}
-        alt="Headshot of George Wright"
+        alt="Headshot of George Wright (@gwright170)"
       />
     </Avatar>
     <div className={classes['title']}>

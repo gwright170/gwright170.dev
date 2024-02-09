@@ -10,19 +10,22 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | George Wright',
-    default: 'Front-end / Full-stack Software Engineer | George Wright',
+    template: '%s | George Wright (@gwright170)',
+    default:
+      'Front-end / Full-stack Software Engineer | George Wright (@gwright170)',
   },
   description:
     'George Wright (@gwright170) is a Software Engineer based in London, UK.',
-  creator: 'George Wright',
-  publisher: 'George Wright',
+  creator: 'George Wright (@gwright170)',
+  publisher: 'George Wright (@gwright170)',
   robots: 'index, follow',
-  keywords: 'George Wright, Software Engineer, Front-end, Full-stack',
+  keywords:
+    'George Wright, gwright170, Software Engineer, Front-end, Full-stack',
   openGraph: {
     type: 'website',
     url: 'https://gwright170.dev/',
-    title: 'Front-end / Full-stack Software Engineer | George Wright',
+    title:
+      'Front-end / Full-stack Software Engineer | George Wright (@gwright170)',
     siteName: 'gwright170.dev',
   },
 };
