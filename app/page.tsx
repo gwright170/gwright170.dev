@@ -46,17 +46,15 @@ const Page = () => (
         rendered landing pages.
       </Text>
     </section>
-    <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="xl">
-      <section>
-        <Title order={3}>Latest projects</Title>
+    <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="xl" verticalSpacing={0}>
+      <div>
         <Projects limit={2} />
-      </section>
+      </div>
 
       {sortedPostsData.sorted.length > 0 && (
-        <section className={classes['grow-to-sibling']}>
-          <Title order={3}>Latest blog post</Title>
+        <div className={classes['grow-to-sibling']}>
           <Blog limit={1} />
-        </section>
+        </div>
       )}
     </SimpleGrid>
     <Expertise />
