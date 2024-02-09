@@ -55,11 +55,8 @@
 }
 
 .container {
-  background-color: light-dark(
-    var(--mantine-color-gray-1),
-    var(--mantine-color-dark-8)
-  );
-  padding: calc(var(--mantine-spacing-xl) * 1.5);
+  background-color: var(--mantine-color-body);
+  padding: var(--mantine-spacing-xl);
   border-radius: var(--mantine-radius-md);
   box-shadow: var(--mantine-shadow-sm);
 

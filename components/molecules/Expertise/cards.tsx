@@ -5,14 +5,12 @@ const cards: ExpertiseCardParams[] = [
     title: 'Front-end',
     content: (
       <>
-        <p>Building interactive, efficient, and scalable web applications.</p>
+        <p>Interactive, scalable web applications.</p>
+        <h4>Core technologies</h4>
+        <p>TypeScript, Node, Babel, Webpack, ESLint</p>
+        <h4>Libraries</h4>
         <p>
-          <b>Core technologies</b>
-          <br /> TypeScript, Node, Babel, Webpack, ESLint, Jest
-        </p>
-        <p>
-          <b>Libraries</b>
-          <br /> React, Next, RxJS, Express,
+          React, Next, RxJS, Express, Jest,
           <br />
           react-testing-library
         </p>
@@ -24,18 +22,11 @@ const cards: ExpertiseCardParams[] = [
     title: 'Full-stack',
     content: (
       <>
-        <p>
-          Back-end and full-stack development, mostly from a system design
-          perspective.
-        </p>
-        <p>
-          <b>Languages</b>
-          <br /> Java, Python, Rust
-        </p>
-        <p>
-          <b>Technologies</b>
-          <br /> Kubernetes, Docker, Terraform, Redis, PostgreSQL
-        </p>
+        <p>Back-end and full-stack development</p>
+        <h4>Languages</h4>
+        <p>Java, Python, Rust</p>
+        <h4>Technologies</h4>
+        <p>Kubernetes, Docker, Terraform, Redis, PostgreSQL</p>
       </>
     ),
     image: { path: '/icons/postgresql.svg', alt: 'Postgresql logo' },

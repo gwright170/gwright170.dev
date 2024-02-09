@@ -9,7 +9,7 @@ const ExpertiseCard = ({ title, content, image }: ExpertiseCardParams) => (
       <Image src={image.path} width={35} height={35} alt={image.alt} />
       <Title order={4}>{title}</Title>
     </div>
-    {content}
+    <div className={classes['content']}>{content}</div>
   </MantineCard>
 );
 

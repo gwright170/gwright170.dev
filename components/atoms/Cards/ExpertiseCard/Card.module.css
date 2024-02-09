@@ -1,7 +1,7 @@
 .title img {
   position: absolute;
   top: var(--mantine-spacing-md);
-  left: calc(var(--mantine-spacing-xl) * 1.5);
+  left: var(--mantine-spacing-xl);
 
   @media (max-width: $mantine-breakpoint-sm) {
     left: 0;
@@ -9,17 +9,22 @@
 }
 
 .title h4 {
+  color: var(--mantine-color-white);
   padding-top: var(--mantine-spacing-lg);
   padding-bottom: var(--mantine-spacing-xl);
   padding-left: rem(48px);
+}
+
+.content h4 {
   color: var(--mantine-color-white);
+  margin: 0px;
 }
 
 .card {
   background-color: transparent;
-  border-left: rem(1px) solid var(--mantine-color-grape-2);
-  color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-0));
-  padding: 0 calc(var(--mantine-spacing-xl) * 1.5);
+  border-left: rem(1px) solid var(--mantine-color-text);
+  color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-0));
+  padding: 0 var(--mantine-spacing-xl);
   border-radius: 0;
   width: 100%;
 

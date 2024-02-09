@@ -7,10 +7,11 @@
   padding: var(--mantine-spacing-xl);
   box-shadow: var(--mantine-shadow-sm);
   color: var(--mantine-color-text);
+  background-color: var(--mantine-color-body);
 
   @mixin hover {
     box-shadow: var(--mantine-shadow-md);
-    transform: scale(1.02);
+    transform: scale(1.01);
   }
 }
 

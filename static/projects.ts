@@ -4,7 +4,7 @@ const projects: ProjectCardParams[] = [
   {
     title: 'gwright170.dev',
     excerpt: 'This website, open source',
-    progress: 65,
+    progress: 85,
     color: '#7950f2',
     icon: 'up',
     link: 'https://github.com/gwright170/gwright170.dev',

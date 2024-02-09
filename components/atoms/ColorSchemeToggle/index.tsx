@@ -5,8 +5,8 @@ import {
   useComputedColorScheme,
   useMantineColorScheme,
 } from '@mantine/core';
-import { IconMoon, IconSun } from '@tabler/icons-react';
 import cx from 'clsx';
+import Image from 'next/image';
 import classes from './ColorSchemeToggle.module.css';
 
 const ColorSchemeToggle = () => {
@@ -24,8 +24,20 @@ const ColorSchemeToggle = () => {
       size="xl"
       aria-label="Toggle color scheme"
     >
-      <IconSun className={cx(classes['icon'], classes['light'])} stroke={1.5} />
-      <IconMoon className={cx(classes['icon'], classes['dark'])} stroke={1.5} />
+      <Image
+        className={cx(classes['icon'], classes['light'])}
+        src={'/icons/full-moon.png'}
+        width={35}
+        height={35}
+        alt={'Toggle light mode'}
+      />
+      <Image
+        className={cx(classes['icon'], classes['dark'])}
+        src={'/icons/new-moon.png'}
+        width={35}
+        height={35}
+        alt={'Toggle dark mode'}
+      />
     </UnstyledButton>
   );
 };

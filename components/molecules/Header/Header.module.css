@@ -36,7 +36,7 @@
     color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-white));
     background-color: light-dark(
       var(--mantine-color-gray-1),
-      var(--mantine-color-dark-6)
+      var(--mantine-color-dark-8)
     );
   }
 }
