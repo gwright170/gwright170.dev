@@ -52,6 +52,6 @@ Before LIVE
 - [ ] first blog post
 - [ ] edge based open graph image is not working
 - [ ] why isn't Google indexing me well
-  - [ ] undefined title
-  - [ ] js text
-  - [ ] no icon
+  - [ ] undefined title (should be addressed, awaiting re-index)
+  - [ ] js text (should be addressed, awaiting re-index)
+  - [ ] no icon (should be addressed, awaiting re-index)
