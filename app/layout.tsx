@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   keywords: 'George Wright, Software Engineer, Front-end, Full-stack',
   openGraph: {
     type: 'website',
-    url: 'https://gright170.dev/',
+    url: 'https://gwright170.dev/',
     title: 'Front-end / Full-stack Software Engineer | George Wright',
     siteName: 'gwright170.dev',
   },
@@ -32,7 +32,6 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
     <html lang="en">
       <head>
         <ColorSchemeScript />
-        <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
