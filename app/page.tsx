@@ -5,7 +5,19 @@ import { Projects } from '@/components/molecules/Projects';
 import { TitleHero } from '@/components/molecules/TitleHero';
 import { sortedPostsData } from '@/static/sortedPostsData';
 import { Container, SimpleGrid, Text, Title } from '@mantine/core';
+import { Metadata } from 'next';
 import classes from './page.module.css';
+
+export const metadata: Metadata = {
+  title: 'Home',
+  keywords: 'George Wright, Software Engineer, Front-end, Full-stack',
+  openGraph: {
+    type: 'website',
+    url: 'https://gright170.dev/',
+    title: 'Front-end / Full-stack Software Engineer | George Wright',
+    siteName: 'gwright170.dev',
+  },
+};
 
 const Page = () => (
   <Container size="xl">

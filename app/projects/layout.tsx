@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   keywords: 'George Wright, Software Engineer, Front-end, Full-stack, Projects',
   openGraph: {
     type: 'website',
-    url: 'https://gright170.dev/blog',
+    url: 'https://gright170.dev/projects',
     title: 'Personal Projects | George Wright',
     siteName: 'gwright170.dev',
   },
