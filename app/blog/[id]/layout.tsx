@@ -10,7 +10,7 @@ const generateMetadata = ({ params }: { params: PostData }): Metadata => {
     description: post.excerpt,
     openGraph: {
       type: 'website',
-      url: `https://gright170.dev/blog/${post.id}`,
+      url: `https://gwright170.dev/blog/${post.id}`,
       title: `${post.title} | George Wright`,
       siteName: 'gwright170.dev',
       images: [

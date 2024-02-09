@@ -9,11 +9,11 @@ import { Metadata } from 'next';
 import classes from './page.module.css';
 
 export const metadata: Metadata = {
-  title: 'Home',
+  title: 'Home | George Wright',
   keywords: 'George Wright, Software Engineer, Front-end, Full-stack',
   openGraph: {
     type: 'website',
-    url: 'https://gright170.dev/',
+    url: 'https://gwright170.dev/',
     title: 'Front-end / Full-stack Software Engineer | George Wright',
     siteName: 'gwright170.dev',
   },
