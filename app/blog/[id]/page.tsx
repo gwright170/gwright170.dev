@@ -34,7 +34,7 @@ const Page = ({ params }: { params: PostData }) => {
             src="/icons/dp.png"
             width={40}
             height={40}
-            alt="Headshot of George Wright"
+            alt="Headshot of George Wright (@gwright170)"
           />
         </Avatar>
         <Text c="dimmed" className={classes['metadata']}>

@@ -2,11 +2,12 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Software Engineering Blog',
-  keywords: 'George Wright, Software Engineer, Front-end, Full-stack, Blog',
+  keywords:
+    'George Wright, gwright170, Software Engineer, Front-end, Full-stack, Blog',
   openGraph: {
     type: 'website',
     url: 'https://gwright170.dev/blog',
-    title: 'Software Engineering Blog | George Wright',
+    title: 'Software Engineering Blog | George Wright (@gwright170)',
     siteName: 'gwright170.dev',
   },
 };
