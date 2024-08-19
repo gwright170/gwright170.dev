@@ -2,9 +2,9 @@ import { ProjectCard } from '@/components/atoms/Cards/ProjectCard';
 import { projects } from '@/static/projects';
 import { Text } from '@mantine/core';
 
-interface ProjectsProps {
+type ProjectsProps = {
   limit?: number;
-}
+};
 
 const Projects = ({ limit }: ProjectsProps) => {
   const data = limit ? projects.slice(0, limit) : projects;

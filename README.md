@@ -40,7 +40,7 @@ I'd recommend using [VSCode](https://code.visualstudio.com/) with the following 
 - [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 
-## What I'm working on
+## What's the plan?
 
 - [ ] First blog post
 - [ ] Create and use vars for default font-sizes (factors of 8px)
@@ -48,3 +48,4 @@ I'd recommend using [VSCode](https://code.visualstudio.com/) with the following 
 - [ ] Remove style overrides dependent on structure
 - [ ] CI using GitHub Actions
 - [ ] Move to GitHub issues
+- [ ] Split Shaka Player integration into its own package / repo

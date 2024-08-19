@@ -3,12 +3,12 @@ import NextImage from 'next/image';
 import { ReactNode } from 'react';
 import classes from './CentredImage.module.css';
 
-interface CenteredImageParams {
+type CenteredImageParams = {
   src: unknown;
   alt: string;
   attribution: ReactNode;
   width?: string;
-}
+};
 
 const CentredImage = ({
   src,

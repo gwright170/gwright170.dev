@@ -1,4 +1,4 @@
-interface PostData {
+type PostData = {
   id: string;
   date: string;
   title: string;
@@ -6,6 +6,6 @@ interface PostData {
   content: string;
   image?: string;
   imageAlt?: string;
-}
+};
 
 export type { PostData };

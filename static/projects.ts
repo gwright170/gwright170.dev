@@ -15,7 +15,7 @@ const projects: ProjectCardParams[] = [
     progress: 0,
     color: '#7950f2',
     icon: 'down',
-    link: 'https://github.com/gwright170/shaka',
+    link: '/projects/shaka',
   },
 ];
 

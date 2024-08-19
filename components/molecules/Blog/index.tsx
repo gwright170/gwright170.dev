@@ -2,9 +2,9 @@ import { BlogCard } from '@/components/atoms/Cards/BlogCard';
 import { sortedPostsData } from '@/static/sortedPostsData';
 import { Text } from '@mantine/core';
 
-interface BlogProps {
+type BlogProps = {
   limit?: number;
-}
+};
 
 const { sorted } = sortedPostsData;
 
