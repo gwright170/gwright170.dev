@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Software Engineering Blog',
   keywords:
-    'George Wright, gwright170, Software Engineer, Front-end, Full-stack, Blog',
+    'George Wright, gwright170, Software Engineer, Front-End, Staff, Blog',
   openGraph: {
     type: 'website',
     url: 'https://gwright170.dev/blog',

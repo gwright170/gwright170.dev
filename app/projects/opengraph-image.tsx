@@ -3,7 +3,7 @@ import { ImageResponse } from 'next/og';
 export const runtime = 'edge';
 export const contentType = 'image/png';
 export const alt =
-  'Front-end / Full-stack Software Engineer | George Wright (@gwright170)';
+  'Front-End Staff Software Engineer | George Wright (@gwright170)';
 export const size = {
   width: 1200,
   height: 630,

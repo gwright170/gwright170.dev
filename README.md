@@ -42,16 +42,9 @@ I'd recommend using [VSCode](https://code.visualstudio.com/) with the following 
 
 ## What I'm working on
 
-- [ ] create and use vars for default font-sizes (factors of 8px)
-- [ ] remove style overrides dependent on structure
+- [ ] First blog post
+- [ ] Create and use vars for default font-sizes (factors of 8px)
+- [ ] BUG: Edge based open graph images are not working
+- [ ] Remove style overrides dependent on structure
 - [ ] CI using GitHub Actions
 - [ ] Move to GitHub issues
-
-Before LIVE
-
-- [ ] first blog post
-- [ ] edge based open graph image is not working
-- [ ] why isn't Google indexing me well
-  - [ ] undefined title (should be addressed, awaiting re-index)
-  - [ ] js text (should be addressed, awaiting re-index)
-  - [ ] no icon (should be addressed, awaiting re-index)
