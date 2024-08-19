@@ -5,7 +5,7 @@ import { Container } from '@mantine/core';
 const Page = () => (
   <Container size="sm">
     <section>
-      <TitleHero secondaryTitle="software engineering blog" />
+      <TitleHero secondaryTitle="Software Engineering Blog" />
     </section>
     <Blog />
   </Container>
