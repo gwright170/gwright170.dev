@@ -1,16 +1,14 @@
 import { ExpertiseCardParams } from '@/types/ExpertiseCardParams';
-import { Card as MantineCard, Title } from '@mantine/core';
-import Image from 'next/image';
+import { Paper, Title } from '@mantine/core';
 import classes from './Card.module.css';
 
-const ExpertiseCard = ({ title, content, image }: ExpertiseCardParams) => (
-  <MantineCard className={classes['card']}>
+const ExpertiseCard = ({ title, content }: ExpertiseCardParams) => (
+  <Paper withBorder radius="md" className={classes['card']}>
     <div className={classes['title']}>
-      <Image src={image.path} width={35} height={35} alt={image.alt} />
-      <Title order={4}>{title}</Title>
+      <Title order={3}>{title}</Title>
     </div>
     <div className={classes['content']}>{content}</div>
-  </MantineCard>
+  </Paper>
 );
 
 export { ExpertiseCard };

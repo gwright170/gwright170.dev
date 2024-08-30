@@ -55,13 +55,13 @@
 }
 
 .container {
-  background-color: var(--mantine-color-body);
+  background-color: light-dark(
+    var(--mantine-color-white),
+    var(--g170-container-dark)
+  );
   padding: var(--mantine-spacing-xl);
   border-radius: var(--mantine-radius-md);
-  box-shadow: var(--mantine-shadow-sm);
-
-  border: calc(0.0625rem * var(--mantine-scale)) solid
-    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  box-shadow: var(--mantine-shadow-md);
 }
 
 .container br {

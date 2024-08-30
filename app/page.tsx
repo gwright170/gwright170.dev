@@ -38,15 +38,24 @@ const Page = () => (
         Innovation award 2023 Q1.
       </Text>
     </section>
-    <Career />
+    <section>
+      <Title order={3}>Career</Title>
+      <Career />
+    </section>
     <Expertise />
     <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="xl" verticalSpacing={0}>
       {sortedPostsData.sorted.length > 0 && (
         <div className={classes['grow-to-sibling']}>
+          <Title order={3} pt={'xl'}>
+            Blog Posts
+          </Title>
           <Blog limit={1} />
         </div>
       )}
       <div>
+        <Title order={3} py={'xl'}>
+          Projects
+        </Title>
         <Projects limit={2} />
       </div>
     </SimpleGrid>

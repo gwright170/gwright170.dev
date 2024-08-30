@@ -9,7 +9,6 @@ import classes from './Career.module.css';
 
 const Career = () => (
   <section className={classes['container']}>
-    <Title order={3}>Career</Title>
     <Stepper active={1} allowNextStepsSelect={false} size="lg" color="#AE3EC9">
       <Stepper.Step
         label={<Title order={4}>Skyscanner</Title>}
