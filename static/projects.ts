@@ -3,7 +3,7 @@ import { ProjectCardParams } from '@/types/ProjectCardParams';
 const projects: ProjectCardParams[] = [
   {
     title: 'gwright170.dev',
-    excerpt: 'This website, open-sourced',
+    excerpt: 'This website, written with Next.js, open-sourced',
     progress: 85,
     color: '#7950f2',
     icon: 'up',
