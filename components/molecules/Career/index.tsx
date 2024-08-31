@@ -28,7 +28,7 @@ const Career = () => (
         }
         description={
           <>
-            SEO platform&nbsp;
+            Web platform&nbsp;
             <br />
             enablement
             <Text size="sm" mt={8}>

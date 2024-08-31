@@ -50,9 +50,9 @@ const cards: ExpertiseCardParams[] = [
         </p>
         <h4>Achievements</h4>
         <p>
-          Maintained error rate &gt; 1%
+          Achieved error rate below 1%
           <br />
-          Led 95% reduction in unrecoverable stall rate
+          Led 95% reduction in unrecoverable stalls
           <br />
           Engineered in-house multi-track audio solution
         </p>
