@@ -12,7 +12,7 @@ const projects: ProjectCardParams[] = [
   {
     title: 'Shaka Player',
     excerpt: 'Integrating Shaka Player with advanced features',
-    progress: 0,
+    progress: 15,
     color: '#7950f2',
     icon: 'down',
     link: '/projects/shaka',

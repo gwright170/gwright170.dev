@@ -42,14 +42,14 @@
 }
 
 .container > div {
-  @media (max-width: $mantine-breakpoint-sm) {
+  @media (max-width: $mantine-breakpoint-xs) {
     flex-direction: column;
     align-items: start;
   }
 }
 
 .container button + div {
-  @media (max-width: $mantine-breakpoint-sm) {
+  @media (max-width: $mantine-breakpoint-xs) {
     display: none;
   }
 }
@@ -65,7 +65,7 @@
 }
 
 .container br {
-  @media (max-width: $mantine-breakpoint-sm) {
+  @media (max-width: $mantine-breakpoint-xs) {
     display: none;
   }
 }

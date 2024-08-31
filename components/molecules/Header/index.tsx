@@ -42,11 +42,11 @@ const Header = () => {
           <Burger
             opened={drawerOpened}
             onClick={toggleDrawer}
-            hiddenFrom="xs"
+            hiddenFrom="sm"
             className={classes['burger']}
             style={{ height: '100%' }}
           ></Burger>
-          <Group gap={5} visibleFrom="xs">
+          <Group gap={5} visibleFrom="sm">
             {items}
           </Group>
         </div>
@@ -66,7 +66,7 @@ const Header = () => {
           withOverlay={false}
           size="100%"
           padding="lg"
-          hiddenFrom="sm"
+          hiddenFrom="md"
           zIndex={1000000}
           className={classes['drawer']}
         >
