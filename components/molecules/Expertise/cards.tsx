@@ -6,12 +6,8 @@ const cards: ExpertiseCardParams[] = [
     content: (
       <>
         <h4>Technologies</h4>
-        <p>
-          Node, Babel, Webpack, ESLint
-          <br />
-          Express, Workspaces and more
-        </p>
-        <h4>Technologies</h4>
+        <p>Node, Babel, Webpack, ESLint, Express, Workspaces and more</p>
+        <h4>Concepts</h4>
         <p>
           Reactive UI – React, Next
           <br />
@@ -21,7 +17,6 @@ const cards: ExpertiseCardParams[] = [
         </p>
       </>
     ),
-    image: { path: '/icons/react.svg', alt: 'React logo' },
   },
   {
     title: 'Technical Leadership',
@@ -43,27 +38,26 @@ const cards: ExpertiseCardParams[] = [
         </p>
       </>
     ),
-    image: { path: '/icons/postgresql.svg', alt: 'Postgresql logo' },
   },
   {
-    title: 'Video playback',
+    title: 'Video Engineering',
     content: (
       <>
         <p>
           Mercury improved the streaming experience under challenging network
-          conditions and unlocked dynamic advertising on legacy devices.
+          conditions and enabled dynamic advert insertion. Served 20m views per
+          week.
         </p>
         <h4>Achievements</h4>
         <p>
-          Maintained error rate &gt; 1% (20m weekly sessions)
+          Achieved error rate below 1%
           <br />
-          Led 95% reduction in unrecoverable stall rate
+          Led 95% reduction in unrecoverable stalls
           <br />
           Engineered in-house multi-track audio solution
         </p>
       </>
     ),
-    image: { path: '/icons/television.png', alt: 'Television emoji' },
   },
 ];
 

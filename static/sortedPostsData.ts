@@ -5,10 +5,10 @@ import path from 'path';
 
 const postsDirectory = path.join(process.cwd(), 'static', 'posts');
 
-interface SortedPostsData {
+type SortedPostsData = {
   sorted: PostData[];
   posts: { [key: string]: PostData };
-}
+};
 
 const getSortedPostsData = (): SortedPostsData => {
   const fileNames = fs.readdirSync(postsDirectory);

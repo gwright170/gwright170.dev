@@ -4,9 +4,9 @@ import NextImage from 'next/image';
 import { ReactNode } from 'react';
 import classes from './TitleHero.module.css';
 
-interface TitleHeroParams {
+type TitleHeroParams = {
   secondaryTitle: ReactNode | string;
-}
+};
 
 const TitleHero = ({ secondaryTitle }: TitleHeroParams) => (
   <>

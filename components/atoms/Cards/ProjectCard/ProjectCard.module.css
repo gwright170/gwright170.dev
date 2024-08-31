@@ -5,13 +5,16 @@
     transform 150ms ease,
     box-shadow 100ms ease;
   padding: var(--mantine-spacing-xl);
-  box-shadow: var(--mantine-shadow-sm);
+  box-shadow: var(--mantine-shadow-md);
   color: var(--mantine-color-text);
-  background-color: var(--mantine-color-body);
+  background-color: light-dark(
+    var(--mantine-color-white),
+    var(--g170-container-dark)
+  );
+  border: 0px;
 
   @mixin hover {
-    box-shadow: var(--mantine-shadow-md);
-    transform: scale(1.01);
+    box-shadow: var(--mantine-shadow-lg);
   }
 }
 
