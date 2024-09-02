@@ -47,7 +47,7 @@ const Page = () => (
       {sortedPostsData.sorted.length > 0 && (
         <div className={classes['grow-to-sibling']}>
           <Title order={3} pt={'xl'}>
-            Blog Posts
+            Latest Blog Post
           </Title>
           <Blog limit={1} />
         </div>

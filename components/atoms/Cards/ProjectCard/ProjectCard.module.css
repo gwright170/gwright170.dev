@@ -2,8 +2,8 @@
   position: relative;
   overflow: hidden;
   transition:
-    transform 150ms ease,
-    box-shadow 100ms ease;
+    background-color 250ms ease,
+    box-shadow 250ms ease;
   padding: var(--mantine-spacing-xl);
   box-shadow: var(--mantine-shadow-md);
   color: var(--mantine-color-text);
@@ -15,6 +15,7 @@
 
   @mixin hover {
     box-shadow: var(--mantine-shadow-lg);
+    background-color: var(--g170-container-hover);
   }
 }
 

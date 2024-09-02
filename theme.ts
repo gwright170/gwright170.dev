@@ -24,6 +24,7 @@ export const resolver: CSSVariablesResolver = theme => ({
     '--g170-cgi-red': '#FF0033',
     '--g170-oceanwise-blue': '#00327E',
     '--g170-container-dark': 'rgb(42, 42, 42)',
+    '--g170-container-hover': '#ffffff1f',
   },
   light: {},
   dark: {},
