@@ -10,9 +10,9 @@ import { useEffect } from 'react';
 import classes from './Header.module.css';
 
 const links = [
-  { link: '/', label: 'home' },
-  { link: '/blog', label: 'blog' },
-  { link: '/projects', label: 'projects' },
+  { link: '/', label: 'Home' },
+  { link: '/blog', label: 'Blog' },
+  { link: '/projects', label: 'Projects' },
 ];
 
 const Header = () => {

@@ -10,7 +10,7 @@ const NavigationButtons = () => (
       mt="xl"
       className={classes['filled-button']}
     >
-      home
+      Home
     </Button>
     <Button
       component="a"
@@ -21,7 +21,7 @@ const NavigationButtons = () => (
       ml="sm"
       className={classes['outline-button']}
     >
-      blog
+      Blog
     </Button>
     <Button
       component="a"
@@ -32,7 +32,7 @@ const NavigationButtons = () => (
       ml="sm"
       className={classes['outline-button']}
     >
-      projects
+      Projects
     </Button>
   </>
 );
