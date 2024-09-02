@@ -15,5 +15,9 @@
 
   @mixin hover {
     box-shadow: var(--mantine-shadow-lg);
+    background-color: light-dark(
+      var(--mantine-color-white),
+      var(--g170-container-dark-hover)
+    );
   }
 }
